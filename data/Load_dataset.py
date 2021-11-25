@@ -1,15 +1,20 @@
 import os
 import torch 
 from torch.utils.data import Dataset
+from sentence_transformers import SentenceTransformer
 import csv
 import sys
+import ast
 
 class WikipediaLongDocumentSimilarityDataset(Dataset):
   
   def __init__(self,dataset_name):
+  
+    self.model = SentenceTransformer('all-MiniLM-L6-v2')
     self.raw_data_path = self.download_raw(dataset_name)
     self.articles = self.read_all_articles()
-
+    self.articles_embeddings = self.compute_articles_embeddings()
+    
   def raw_data_link(self, dataset_name):
     if dataset_name == "wines":
         return "https://zenodo.org/record/4812960/files/wines.txt?download=1"
@@ -29,6 +34,21 @@ class WikipediaLongDocumentSimilarityDataset(Dataset):
             reader = csv.reader(f)
             all_articles = list(reader)
         return all_articles[1:] #ignore data[0] --> ['Title','Sections']
+        
+  def compute_articles_embeddings(self):
+    embeddings = []
+    for article in self.articles[:3]: 
+      sections = ast.literal_eval(article[1]) #extract the sections
+      sentences = []
+      for section in sections:
+        sentences.append(section[0]) #store section's title 
+        section_body = section[1].split(".")
+        for sentence in section_body:
+          sentences.append(sentence)
+      embeddings_list = self.model.encode(sentences, convert_to_tensor=True)
+      embeddings.append(torch.mean(embeddings_list, dim=0)) #average embeddings of all sentences
+    return embeddings
+      
 
   def __len__(self):
     return(len(self.articles))

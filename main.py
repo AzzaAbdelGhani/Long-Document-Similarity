@@ -3,7 +3,9 @@ from data import Load_dataset
 
 def main():
     dataset = Load_dataset.WikipediaLongDocumentSimilarityDataset("video_games") 
-    print(dataset.articles[0])
+    #print(len(dataset.articles))
+    #print(len(dataset.articles_embeddings))
+    print(dataset.articles_embeddings[0])
     
     
     
