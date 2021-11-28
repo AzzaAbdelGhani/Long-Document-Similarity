@@ -1,11 +1,13 @@
 from data import Load_dataset
+from models import SBERT
 
 
 def main():
-    dataset = Load_dataset.WikipediaLongDocumentSimilarityDataset("video_games") 
-    #print(len(dataset.articles))
-    #print(len(dataset.articles_embeddings))
-    print(dataset.articles_embeddings[0])
+    sdr_model = SBERT.SBERT("video_games")
+    dataset_articles = sdr_model.dataset
+    dataset_embeddings = sdr_model.articles_embeddings
+    print(len(dataset_articles))
+    print(len(dataset_embeddings))
     
     
     
