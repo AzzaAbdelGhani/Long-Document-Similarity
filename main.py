@@ -3,11 +3,8 @@ from models import SBERT
 
 
 def main():
-    sdr_model = SBERT.SBERT("video_games")
-    dataset_articles = sdr_model.dataset
-    dataset_embeddings = sdr_model.articles_embeddings
-    print(len(dataset_articles))
-    print(len(dataset_embeddings))
+    sbert_model = SBERT.SBERT("video_games")
+    result = sbert_model.find_similar_docs("Dead Island", 13)
     
     
     
