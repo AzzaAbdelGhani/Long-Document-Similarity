@@ -4,24 +4,51 @@ import ast
 import torch 
 import faiss
 import numpy
+import nltk
+nltk.download('punkt')
+from nltk.tokenize import sent_tokenize
+import pandas as pd
+from tqdm import tqdm
+import io
+
+class CPU_Unpickler(pickle.Unpickler):
+    def find_class(self, module, name):
+        if module == 'torch.storage' and name == '_load_from_bytes':
+            return lambda b: torch.load(io.BytesIO(b), map_location='cpu')
+        else: return super().find_class(module, name)
+
 
 class SBERT:
 
-  def __init__(self,dataset_name):
-    self.model = SentenceTransformer('all-MiniLM-L6-v2', device='cuda')
+  def __init__(self,dataset_name, saved_embeddings = None, device = None):
     self.dataset = WikipediaLongDocumentSimilarityDataset(dataset_name)
-    self.articles_embeddings = self.compute_articles_embeddings()
+    if device is None:
+        device = "cuda:0" if torch.cuda.is_available() else "cpu" # establish device
+    print(device)
+
     self.titles = [article[0] for article in self.dataset.articles]
     
+    if saved_embeddings == None:
+      self.model = SentenceTransformer('all-MiniLM-L6-v2', device=device)
+      self.articles_embeddings = self.compute_articles_embeddings()
+    else:
+      if device == "cpu":
+        with open(saved_embeddings, "rb") as f:
+          self.articles_embeddings = CPU_Unpickler(f).load()
+      else:
+        self.articles_embeddings = pd.read_pickle(saved_embeddings) 
+    self.results = self.test_model()   
 
   def compute_articles_embeddings(self):
     embeddings = []
-    for article in self.dataset.articles: 
+    for article in tqdm(self.dataset.articles, desc="Compute Embeddings for each document"): 
       sections = ast.literal_eval(article[1]) #extract the sections
       sentences = []
       for section in sections:
         sentences.append(section[0]) #store section's title 
-        sentences.append(section[1]) #stroe section's description 
+        #sentences.extend(section[1].split(".")) 
+        sentences.extend(sent_tokenize(section[1])) #stroe section's body
+        
       embeddings_list = self.model.encode(sentences, convert_to_tensor=True)
       embeddings.append(torch.mean(embeddings_list, dim=0)) #average embeddings of all sentences
     return embeddings
@@ -29,8 +56,6 @@ class SBERT:
   def compute_score_similarity(self,video_game_1_title, video_game_2_title):
     idx1 = self.titles.index(video_game_1_title)
     idx2 = self.titles.index(video_game_2_title)
-    #print(idx1)
-    #print(idx2)
     embed1 = self.articles_embeddings[idx1]
     embed2 = self.articles_embeddings[idx2]
     cosine_score = util.pytorch_cos_sim(embed1, embed2)
@@ -42,14 +67,26 @@ class SBERT:
     document_embeddings = numpy.array([numpy.array(x.cpu()) for x in self.articles_embeddings])
     index = faiss.IndexFlatL2(d)   # build the index, d=size of vectors 
     index.add(document_embeddings)                  
-    #print(index.ntotal)
-    # we want 4 similar vectors
-    D, I = index.search(query, k)     # actual search
+    D, I = index.search(query, k) 
+    I_titles = [] 
     for i in I[0]:
-      print(self.titles[i])
+      I_titles.append(self.titles[i])
+    return(I_titles)
 
   def find_similar_docs(self, video_game_title, num_items):
+    if video_game_title not in self.titles:
+      return []
     idx = self.titles.index(video_game_title)
     query_embed = self.articles_embeddings[idx].cpu().numpy().reshape(1,len(self.articles_embeddings[idx]))
     similar_docs = self.faiss_index(query=query_embed, k=num_items)
     return similar_docs
+
+  def test_model(self, k=None):
+    model_labels = {}
+    for doc, labels in tqdm(self.dataset.labels.items(), desc="Find Similar articles"):
+      if k ==  None:
+        model_labels[doc] = self.find_similar_docs(doc, len(labels.keys()))
+      else:
+        model_labels[doc] = self.find_similar_docs(doc, k)
+    return model_labels
+    
