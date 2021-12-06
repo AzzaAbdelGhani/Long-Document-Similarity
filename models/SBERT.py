@@ -10,6 +10,7 @@ from nltk.tokenize import sent_tokenize
 import pandas as pd
 from tqdm import tqdm
 import io
+import pickle
 
 class CPU_Unpickler(pickle.Unpickler):
     def find_class(self, module, name):
@@ -21,7 +22,7 @@ class CPU_Unpickler(pickle.Unpickler):
 class SBERT:
 
   def __init__(self,dataset_name, saved_embeddings = None, device = None):
-    self.dataset = WikipediaLongDocumentSimilarityDataset(dataset_name)
+    self.dataset = Load_dataset.WikipediaLongDocumentSimilarityDataset(dataset_name)
     if device is None:
         device = "cuda:0" if torch.cuda.is_available() else "cpu" # establish device
     print(device)

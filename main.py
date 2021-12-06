@@ -1,10 +1,11 @@
 from data import Load_dataset
-from models import SBERT
+from models.SBERT import SBERT
 
 
 def main():
-    sbert_model = SBERT.SBERT("video_games")
-    result = sbert_model.find_similar_docs("Dead Island", 13)
+    sbert_model = SBERT("video_games", saved_embeddings= "data/video_games_embeddings.pkl")
+    result = sbert_model.find_similar_docs("Dead Island", 14)
+    print(result)
     
     
     
