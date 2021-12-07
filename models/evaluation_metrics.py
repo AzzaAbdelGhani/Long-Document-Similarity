@@ -23,13 +23,14 @@ def calculate_MRR(gt_labels, model_labels):
     for label in labels.keys():
       if label not in model_labels[doc]:
         continue
-      label_rank = model_labels[doc].index(label) + 1
+      label_rank = model_labels[doc].index(label) + 1 
       ranks.append(label_rank)
     if len(ranks) == 0 :
-      continue 
-    reciprocal_ranks.append(1/min(ranks))
+      reciprocal_ranks.append(0)
+    else: 
+      reciprocal_ranks.append(1/min(ranks))
   MRR = sum(reciprocal_ranks)/len(reciprocal_ranks)
-  #print(f"Recepricle mean:{sum(reciprocal_ranks) / len(reciprocal_ranks)}")
+  print(f"Recepricle mean: {sum(reciprocal_ranks) / len(reciprocal_ranks)}\n")
   return MRR
 
 def calculate_Hit_Ratio_at_K(gt_labels, model_labels_at_k):
