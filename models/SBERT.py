@@ -21,7 +21,7 @@ class CPU_Unpickler(pickle.Unpickler):
 
 class SBERT:
 
-  def __init__(self,dataset_name, saved_embeddings = None, device = None):
+  def __init__(self,dataset_name, saved_embeddings = None, device = None, save = False):
     self.dataset = Load_dataset.WikipediaLongDocumentSimilarityDataset(dataset_name)
     if device is None:
         device = "cuda:0" if torch.cuda.is_available() else "cpu" # establish device
@@ -32,6 +32,10 @@ class SBERT:
     if saved_embeddings == None:
       self.model = SentenceTransformer('all-MiniLM-L6-v2', device=device)
       self.articles_embeddings = self.compute_articles_embeddings()
+      if save == True: #Stroe embeddings
+        with open(dataset_name+'_embeddings.pkl', "wb") as fOut:
+          pickle.dump(self.articles_embeddings, fOut, protocol=pickle.HIGHEST_PROTOCOL)
+
     else:
       if device == "cpu":
         with open(saved_embeddings, "rb") as f:
@@ -62,10 +66,11 @@ class SBERT:
     cosine_score = util.pytorch_cos_sim(embed1, embed2)
     return cosine_score.item()
 
-  def faiss_index(self, query, k):
+  def faiss_index(self,query_idx, query, k):
     d = len(self.articles_embeddings[0]) #embedding's size 
     n = len(self.articles_embeddings) #number of articles
-    document_embeddings = numpy.array([numpy.array(x.cpu()) for x in self.articles_embeddings])
+    other_articles_embeddings = self.articles_embeddings[:query_idx] + self.articles_embeddings[query_idx+1:]
+    document_embeddings = numpy.array([numpy.array(x.cpu()) for x in other_articles_embeddings])
     index = faiss.IndexFlatL2(d)   # build the index, d=size of vectors 
     index.add(document_embeddings)                  
     D, I = index.search(query, k) 
@@ -79,7 +84,7 @@ class SBERT:
       return []
     idx = self.titles.index(video_game_title)
     query_embed = self.articles_embeddings[idx].cpu().numpy().reshape(1,len(self.articles_embeddings[idx]))
-    similar_docs = self.faiss_index(query=query_embed, k=num_items)
+    similar_docs = self.faiss_index(idx, query=query_embed, k=num_items)
     return similar_docs
 
   def test_model(self, k=None):
