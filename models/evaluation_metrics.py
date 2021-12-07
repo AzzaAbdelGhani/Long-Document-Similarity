@@ -23,7 +23,7 @@ def calculate_MRR(gt_labels, model_labels):
     for label in labels.keys():
       if label not in model_labels[doc]:
         continue
-      label_rank = model_labels[doc].index(label)
+      label_rank = model_labels[doc].index(label) + 1
       ranks.append(label_rank)
     if len(ranks) == 0 :
       continue 
