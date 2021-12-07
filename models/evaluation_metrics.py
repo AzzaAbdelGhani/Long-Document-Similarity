@@ -11,7 +11,8 @@ def calculate_MPR(gt_labels, model_labels, num_articles):
       if label not in model_labels[doc]:
         continue
       label_rank = model_labels[doc].index(label)
-      percentiles.append((label_rank/num_articles)*count)
+      #percentiles.append((label_rank/num_articles)*count)
+      percentiles.append((label_rank/len(labels.keys()))*count)
   MPR = sum(percentiles)/len(percentiles)
   #print("percentiles_mean:{}\n\n\n\n".format(sum(percentiles) / len(percentiles)))
   return MPR
@@ -30,7 +31,7 @@ def calculate_MRR(gt_labels, model_labels):
     else: 
       reciprocal_ranks.append(1/min(ranks))
   MRR = sum(reciprocal_ranks)/len(reciprocal_ranks)
-  print(f"Recepricle mean: {sum(reciprocal_ranks) / len(reciprocal_ranks)}\n")
+  #print(f"Recepricle mean: {sum(reciprocal_ranks) / len(reciprocal_ranks)}\n")
   return MRR
 
 def calculate_Hit_Ratio_at_K(gt_labels, model_labels_at_k):
