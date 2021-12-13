@@ -9,6 +9,7 @@ class WikipediaLongDocumentSimilarityDataset(Dataset):
   def __init__(self,dataset_name):
     self.raw_data_path = self.download_raw(dataset_name)
     self.articles = self.read_all_articles()
+    self.titles = [article[0] for article in self.articles]
     self.labels = self.read_ground_truth_labels(dataset_name)
     
   def raw_data_link(self, dataset_name):
