@@ -15,7 +15,7 @@ def calculate_MPR(gt_labels, model_labels, num_articles):
       percentiles.append((label_rank/len(labels.keys()))*count)
   MPR = sum(percentiles)/len(percentiles)
   #print("percentiles_mean:{}\n\n\n\n".format(sum(percentiles) / len(percentiles)))
-  return MPR
+  return ("{:.1%}".format(MPR))
 
 def calculate_MRR(gt_labels, model_labels):
   reciprocal_ranks = []
@@ -32,7 +32,7 @@ def calculate_MRR(gt_labels, model_labels):
       reciprocal_ranks.append(1/min(ranks))
   MRR = sum(reciprocal_ranks)/len(reciprocal_ranks)
   #print(f"Recepricle mean: {sum(reciprocal_ranks) / len(reciprocal_ranks)}\n")
-  return MRR
+  return ("{:.1%}".format(MRR))
 
 def calculate_Hit_Ratio_at_K(gt_labels, model_labels_at_k):
   mean_ratios = []
@@ -44,4 +44,4 @@ def calculate_Hit_Ratio_at_K(gt_labels, model_labels_at_k):
     mean_ratios.append((similar_articles_found/len(labels.keys())))
   mean_hit_ratio = sum(mean_ratios)/len(mean_ratios)
   #print(f"Hit rate mean:{mean_hit_ratio}")
-  return mean_hit_ratio
+  return ("{:.1%}".format(mean_hit_ratio))

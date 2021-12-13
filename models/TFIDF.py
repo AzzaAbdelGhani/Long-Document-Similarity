@@ -13,7 +13,7 @@ class TF_IDF:
     self.dataset = Load_dataset.WikipediaLongDocumentSimilarityDataset(dataset_name)
     self.sections = self.get_sections()
     self.tfidf_matrix = TfidfVectorizer().fit_transform(self.sections)
-    print(self.tfidf_matrix.shape)
+    #print(self.tfidf_matrix.shape)
     self.results = self.test_model()
 
   def get_sections(self):

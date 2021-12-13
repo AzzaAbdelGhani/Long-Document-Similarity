@@ -25,7 +25,7 @@ class SBERT:
     self.dataset = Load_dataset.WikipediaLongDocumentSimilarityDataset(dataset_name)
     if device is None:
         device = "cuda:0" if torch.cuda.is_available() else "cpu" # establish device
-    print(device)
+    #print(device)
 
     self.titles = [article[0] for article in self.dataset.articles]
     
