@@ -6,12 +6,12 @@ from tabulate import tabulate
 
 def main():
     table = []
-    sbert_model_1 = SBERT("video_games", saved_embeddings= "data/saved_embeddings/video_games_embeddings.pkl")
+    sbert_model_1 = SBERT("video_games", saved_embeddings= "data/saved_embeddings/all-MiniLM-L6-v2_video_games_embeddings.pkl")
     m1 = []
     m1.append("SBERT")
     res1 = Evaluate_model(sbert_model_1, k=100)
     m1.extend(res1)
-    sbert_model_2 = SBERT("wines", saved_embeddings= "data/saved_embeddings/wines_embeddings.pkl")
+    sbert_model_2 = SBERT("wines", saved_embeddings= "data/saved_embeddings/all-MiniLM-L6-v2_wines_embeddings.pkl")
     res2 = Evaluate_model(sbert_model_2, k=100)
     m1.extend(res2)
     table.append(m1)
