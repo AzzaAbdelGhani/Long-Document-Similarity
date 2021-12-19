@@ -14,7 +14,7 @@ class TF_IDF:
     self.sections = self.get_sections()
     self.tfidf_matrix = TfidfVectorizer().fit_transform(self.sections)
     #print(self.tfidf_matrix.shape)
-    self.results = self.test_model()
+    self.results = self.test_model(k = len(self.dataset))
 
   def get_sections(self):
     articles_sections = []
@@ -38,11 +38,8 @@ class TF_IDF:
       similar_titles.append(self.dataset.titles[i])
     return(similar_titles)
     
-  def test_model(self, k=None):
+  def test_model(self, k=10):
     model_labels = {}
-    for doc, labels in tqdm(self.dataset.labels.items(), desc="Find Similar articles"):
-      if k ==  None:
-        model_labels[doc] = self.get_cosine_similarities(doc, len(labels.keys())+1)
-      else:
-        model_labels[doc] = self.get_cosine_similarities(doc, k+1)
+    for doc, labels in tqdm(self.dataset.labels.items(), desc="Find k = {} Similar articles".format(k)):
+      model_labels[doc] = self.get_cosine_similarities(doc, len(labels.keys()))
     return model_labels

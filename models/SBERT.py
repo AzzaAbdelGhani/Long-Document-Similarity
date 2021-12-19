@@ -31,6 +31,7 @@ class SBERT:
     
     if saved_embeddings == None:
       self.model = SentenceTransformer('all-MiniLM-L6-v2', device=device)
+      self.model.max_seq_length = 500 #increase the input sequence length from 128 to 500 
       self.articles_embeddings = self.compute_articles_embeddings()
       if save == True: #Stroe embeddings
         with open(dataset_name+'_embeddings.pkl', "wb") as fOut:
@@ -42,16 +43,15 @@ class SBERT:
           self.articles_embeddings = CPU_Unpickler(f).load()
       else:
         self.articles_embeddings = pd.read_pickle(saved_embeddings) 
-    self.results = self.test_model()   
+    self.results = self.test_model(k = len(self.dataset)-1)   
 
   def compute_articles_embeddings(self):
     embeddings = []
     for article in tqdm(self.dataset.articles, desc="Compute Embeddings for each document"): 
-      sections = ast.literal_eval(article[1]) #extract the sections
+      sections = ast.literal_eval(article[1]) #extract article's sections
       sentences = []
       for section in sections:
         sentences.append(section[0]) #store section's title 
-        #sentences.extend(section[1].split(".")) 
         sentences.extend(sent_tokenize(section[1])) #stroe section's body
         
       embeddings_list = self.model.encode(sentences, convert_to_tensor=True)
@@ -87,12 +87,9 @@ class SBERT:
     similar_docs = self.faiss_index(idx, query=query_embed, k=num_items)
     return similar_docs
 
-  def test_model(self, k=None):
+  def test_model(self, k=10):
     model_labels = {}
-    for doc, labels in tqdm(self.dataset.labels.items(), desc="Find Similar articles"):
-      if k ==  None:
-        model_labels[doc] = self.find_similar_docs(doc, len(labels.keys()))
-      else:
-        model_labels[doc] = self.find_similar_docs(doc, k)
+    for doc in tqdm(self.dataset.labels.keys(), desc="Find k = {} Similar articles".format(k)):
+      model_labels[doc] = self.find_similar_docs(doc, k)
     return model_labels
     
