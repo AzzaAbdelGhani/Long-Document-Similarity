@@ -1,4 +1,4 @@
-from data import Load_dataset
+from data.Load_dataset import WikipediaLongDocumentSimilarityDataset
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from tqdm import tqdm
@@ -6,13 +6,26 @@ import ast
 import nltk
 nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+stopwords_ = set(stopwords.words('english'))
+import re
+import spacy
+nlp = spacy.load('en_core_web_sm')
+from spacy.lang.en import English
+
 
 class TF_IDF:
 
   def __init__(self,dataset_name):
-    self.dataset = Load_dataset.WikipediaLongDocumentSimilarityDataset(dataset_name)
-    self.sections = self.get_sections()
-    self.tfidf_matrix = TfidfVectorizer().fit_transform(self.sections)
+    self.dataset = WikipediaLongDocumentSimilarityDataset(dataset_name)
+    self.sections = [self.preprocessing(section) for section in self.get_sections()]
+    self.tfidf_vectorizer = TfidfVectorizer(analyzer='word',
+                                            min_df=0.001,
+                                            max_df=0.75,
+                                            stop_words='english',
+                                            sublinear_tf=True)
+    self.tfidf_matrix = self.tfidf_vectorizer.fit_transform(self.sections)
     #print(self.tfidf_matrix.shape)
     self.results = self.test_model(k = len(self.dataset))
 
@@ -24,8 +37,16 @@ class TF_IDF:
       for section in sections:
         sentences.append(section[0]) 
         sentences.extend(sent_tokenize(section[1])) 
-      articles_sections.append(' '.join([str(item) for item in sentences]))
+      articles_sections.append(' '.join([str(item).lower() for item in sentences if item not in stopwords_ and len(item)>3]))
     return articles_sections
+
+  def preprocessing(self,text):
+    punctiation_pattern = re.compile('[!-_@#$%^&*()?<>;\.,:"]')
+    text = re.sub(punctiation_pattern, '', text)
+    numbers_patterns = re.compile('[0-9]+[\w]*')
+    text = re.sub(numbers_patterns, '', text)
+    #sec = ' '.join([w.lemma_ for w in nlp(text)])
+    return text
 
   def get_cosine_similarities(self, title, k):
     if title not in self.dataset.titles:
@@ -38,7 +59,7 @@ class TF_IDF:
       similar_titles.append(self.dataset.titles[i])
     return(similar_titles)
     
-  def test_model(self, k=10):
+  def test_model(self, k=None):
     model_labels = {}
     for doc, labels in tqdm(self.dataset.labels.items(), desc="Find k = {} Similar articles".format(k)):
       model_labels[doc] = self.get_cosine_similarities(doc, len(labels.keys()))

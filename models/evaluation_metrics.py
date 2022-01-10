@@ -1,5 +1,7 @@
 import numpy
 
+import numpy
+
 def Evaluate_model(model, k):
   MPR = calculate_MPR(model.dataset.labels, model.results)
   MRR = calculate_MRR(model.dataset.labels, model.results)
