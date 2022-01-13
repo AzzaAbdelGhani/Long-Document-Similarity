@@ -30,8 +30,8 @@ class SBERT:
     self.titles = [article[0] for article in self.dataset.articles]
     
     if saved_embeddings == None:
-      self.model = SentenceTransformer('all-MiniLM-L6-v2', device=device)
-      self.model.max_seq_length = 500 #increase the input sequence length from 128 to 500 
+      self.model = SentenceTransformer('all-roberta-large-v1', device=device)
+      self.model.max_seq_length = self.model.max_seq_length 
       self.articles_embeddings = self.compute_articles_embeddings()
       if save == True: #Stroe embeddings
         with open(dataset_name+'_embeddings.pkl', "wb") as fOut:
@@ -43,7 +43,16 @@ class SBERT:
           self.articles_embeddings = CPU_Unpickler(f).load()
       else:
         self.articles_embeddings = pd.read_pickle(saved_embeddings) 
-    self.results = self.test_model(k = len(self.dataset)-1)   
+    self.results = self.test_model(k = len(self.dataset)-1)  
+
+  def split_sentence(self,sentence):
+    if len(sentence.split()) > 200:
+        s = []
+        s.append(' '.join(sentence.split()[:200]))
+        s.append(' '.join(self.split_sentence(' '.join(sentence.split()[200:]))))
+        return s
+    else: 
+        return [sentence]
 
   def compute_articles_embeddings(self):
     embeddings = []
@@ -52,9 +61,11 @@ class SBERT:
       sentences = []
       for section in sections:
         sentences.append(section[0]) #store section's title 
-        sentences.extend(sent_tokenize(section[1])) #stroe section's body
+        for sent in sent_tokenize(section[1]):
+            s = self.split_sentence(sent)
+            sentences.extend(s)
         
-      embeddings_list = self.model.encode(sentences, convert_to_tensor=True)
+      embeddings_list = self.model.encode(sentences, convert_to_tensor=True, show_progress_bar=False)
       embeddings.append(torch.mean(embeddings_list, dim=0)) #average embeddings of all sentences
     return embeddings
 
