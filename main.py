@@ -25,11 +25,25 @@ def main():
     res4 = Evaluate_model(tfidf_model_2, k=100)
     m2.extend(res4)
     table.append(m2)
+
+
+    sum_tfidf_model_1 = TF_IDF("video_games", use_summarization=True)
+    m3 = []
+    m3.append("Summarization+tfidf")
+    res5 = Evaluate_model(sum_tfidf_model_1 , k=100)
+    m3.extend(res5)
+
+    sum_tfidf_model_2 = TF_IDF("wines", use_summarization=True)
+    res6 = Evaluate_model(sum_tfidf_model_2 , k=100)
+    m3.extend(res6)
+    table.append(m3)
+
+
     headers=["Model","MPR", "MRR", "HR@100", "MPR", "MRR", "HR@100"]
     print("\n Results : \n")
-    print("-----------------------------------------------------------------")
-    print("| \t  |   \t video_games  \t     |   \t wines \t        |")
-    print("-----------------------------------------------------------------")
+    print("-----------------------------------------------------------------------------")
+    print("| \t\t      |   \t video_games  \t |   \t wines \t           |")
+    print("-----------------------------------------------------------------------------")
     print(tabulate(table, headers, tablefmt="github"))
 
     

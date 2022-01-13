@@ -1,4 +1,5 @@
 from data.Load_dataset import WikipediaLongDocumentSimilarityDataset
+from models.Summarization import Summarization
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from tqdm import tqdm
@@ -17,9 +18,15 @@ from spacy.lang.en import English
 
 class TF_IDF:
 
-  def __init__(self,dataset_name):
-    self.dataset = WikipediaLongDocumentSimilarityDataset(dataset_name)
-    self.sections = [self.preprocessing(section) for section in self.get_sections()]
+  def __init__(self,dataset_name=None, use_summarization = False):
+    if use_summarization == False:
+      self.dataset = WikipediaLongDocumentSimilarityDataset(dataset_name)
+      self.sections = [self.preprocessing(section) for section in self.get_sections()]
+    else:
+      self.sum = Summarization(dataset_name)
+      self.dataset = self.sum.dataset
+      self.sections = [self.preprocessing(section) for section in self.sum.summaries.values()]
+    
     self.tfidf_vectorizer = TfidfVectorizer(analyzer='word',
                                             min_df=0.001,
                                             max_df=0.75,
@@ -27,6 +34,7 @@ class TF_IDF:
                                             sublinear_tf=True)
     self.tfidf_matrix = self.tfidf_vectorizer.fit_transform(self.sections)
     #print(self.tfidf_matrix.shape)
+    
     self.results = self.test_model(k = len(self.dataset))
 
   def get_sections(self):
@@ -37,15 +45,19 @@ class TF_IDF:
       for section in sections:
         sentences.append(section[0]) 
         sentences.extend(sent_tokenize(section[1])) 
-      articles_sections.append(' '.join([str(item).lower() for item in sentences if item not in stopwords_ and len(item)>3]))
+      articles_sections.append(' '.join([str(item).lower() for item in sentences if item not in stopwords_]))
     return articles_sections
 
   def preprocessing(self,text):
+    #lemmatizer = WordNetLemmatizer()
+    #porter = PorterStemmer()
     punctiation_pattern = re.compile('[!-_@#$%^&*()?<>;\.,:"]')
     text = re.sub(punctiation_pattern, '', text)
     numbers_patterns = re.compile('[0-9]+[\w]*')
     text = re.sub(numbers_patterns, '', text)
-    #sec = ' '.join([w.lemma_ for w in nlp(text)])
+    #sec = ' '.join([str(lemmatizer.lemmatize(w)).lower() for w in text.split()])
+    #sec = ' '.join([str(porter.stem(w)).lower() for w in text.split()])
+    #sec = ' '.join([str(w).lower() for w in text.split()])
     return text
 
   def get_cosine_similarities(self, title, k):
