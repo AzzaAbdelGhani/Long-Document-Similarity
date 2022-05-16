@@ -17,7 +17,6 @@ To evaluate the results, three evaluatoin metrics are computed MPR(Mean Percenti
 To run the code, only run main file which will prints the table of results: 
 
 ```
-{
   python3 main.py
-}
+  
 ```
