@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 stopwords_ = set(stopwords.words('english'))
 import re
 import spacy
-nlp = spacy.load('en_core_web_sm')
+#nlp = spacy.load('en_core_web_sm')
 from spacy.lang.en import English
 
 
