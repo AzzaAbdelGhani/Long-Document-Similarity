@@ -24,12 +24,12 @@ class Doc2vec_WikiSimilarity():
 		self.wiki_languages = {'en':'english','ar':'arabic','es':'spanish','fr':'french','ru':'russian','pt':'portuguese'}
 		self.multilingual_data, self.data = self.load_dataset(dataset_name,clean)
 		if test == True:
-			self.en_model = Doc2Vec.load("data/doc2vec_models/en_d2v.model")
-			self.ar_model = Doc2Vec.load("data/doc2vec_models/ar_d2v.model")
-			self.es_model = Doc2Vec.load("data/doc2vec_models/es_d2v.model")
-			self.fr_model = Doc2Vec.load("data/doc2vec_models/fr_d2v.model")
-			self.pt_model = Doc2Vec.load("data/doc2vec_models/pt_d2v.model")
-			self.ru_model = Doc2Vec.load("data/doc2vec_models/ru_d2v.model")
+			self.en_model = Doc2Vec.load("XL-Sum/data/doc2vec_models/en_d2v.model")
+			self.ar_model = Doc2Vec.load("XL-Sum/data/doc2vec_models/ar_d2v.model")
+			self.es_model = Doc2Vec.load("XL-Sum/data/doc2vec_models/es_d2v.model")
+			self.fr_model = Doc2Vec.load("XL-Sum/data/doc2vec_models/fr_d2v.model")
+			self.pt_model = Doc2Vec.load("XL-Sum/data/doc2vec_models/pt_d2v.model")
+			self.ru_model = Doc2Vec.load("XL-Sum/data/doc2vec_models/ru_d2v.model")
 			self.inferred_vectors = self.get_inferred_vectors()
 		self.similarity_scores= self.get_similarity_scores()
 		self.ranking_accuracy, self.r_s = self.evaluate_results() 
@@ -60,16 +60,16 @@ class Doc2vec_WikiSimilarity():
         
 	def load_dataset(self, dataset_name, clean):
 		if dataset_name == "wikipediaSimilarity353":
-		    data = pd.read_csv("data/wikipediaSimilarity353.csv")
+		    data = pd.read_csv("WikiSRS/data/wikipediaSimilarity353.csv")
 		    data['titleA'] = data['titleA'].replace(['Production, costs, and pricing'],'Production')#no wikipedia page for 'Production, costs, and pricing'
 		elif dataset_name == "WikiSRS_relatedness" or dataset_name == "WikiSRS_similarity":
-		    data = pd.read_csv("data/"+dataset_name+".csv", sep='\t') 
+		    data = pd.read_csv("WikiSRS/data/"+dataset_name+".csv", sep='\t') 
 		    data = data.drop(['RawScores', 'StdDev'], axis = 1)
 		    data.rename(columns = {'Term1':'termA', 'String1':'titleA',
 		                           'Term2':'termB', 'String2':'titleB',
 		                           'Mean' :'relatedness'}, inplace = True)
 		    data['relatedness'] = data['relatedness'].div(10)
-		multilingual_data = pd.read_csv("data/multilingual_"+dataset_name+".csv") 
+		multilingual_data = pd.read_csv("WikiSRS/data/multilingual_"+dataset_name+".csv") 
 		#multilingual_data = multilingual_data[:100]
 		if clean == True:
 			multilingual_data['clean_content'] = self.cleaning_data(multilingual_data)
@@ -103,7 +103,7 @@ class Doc2vec_WikiSimilarity():
 		return inferred_vectors
 
 	def save_similarity_scores(self, results):
-		with open("results/"+self.dataset_name+"/doc2vec_similarity_scores.txt", "w") as f:
+		with open("WikiSRS/results/"+self.dataset_name+"/doc2vec_similarity_scores.txt", "w") as f:
 			for key, value in results.items():
 				#f.write('%s: %s\n' % (key,value))
 				f.write('%s :\n' % key)
@@ -134,7 +134,7 @@ class Doc2vec_WikiSimilarity():
 		return results
 
 	def save_metrics_results(self, Average_of_true_ranks, r_s):
-		with open("results/"+self.dataset_name+"/doc2vec_metrics_results", "w") as f :
+		with open("WikiSRS/results/"+self.dataset_name+"/doc2vec_metrics_results", "w") as f :
 			f.write("Average of True Rankings for each language : \n")
 			for k, v in Average_of_true_ranks.items():
 				f.write('%s: %s\n' % (k, v))

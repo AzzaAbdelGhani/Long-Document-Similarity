@@ -1,0 +1,1204 @@
+en :
+{'titleA': 'Love', 'titleB': 'Sexual intercourse', 'predicted': 0.4049917161464691, 'actual': 0.6769999999999999}
+{'titleA': 'Tiger', 'titleB': 'Cat', 'predicted': 0.39432042837142944, 'actual': 0.735}
+{'titleA': 'Tiger', 'titleB': 'Tiger', 'predicted': 1.0, 'actual': 1.0}
+{'titleA': 'Book', 'titleB': 'Paper', 'predicted': 0.4266482889652252, 'actual': 0.746}
+{'titleA': 'Computer', 'titleB': 'Internet', 'predicted': 0.3042158782482147, 'actual': 0.758}
+{'titleA': 'Television', 'titleB': 'Radio broadcasting', 'predicted': 0.44556179642677307, 'actual': 0.6769999999999999}
+{'titleA': 'Mass media', 'titleB': 'Radio broadcasting', 'predicted': 0.34618282318115234, 'actual': 0.742}
+{'titleA': 'Drug', 'titleB': 'Abuse', 'predicted': 0.23621517419815063, 'actual': 0.6849999999999999}
+{'titleA': 'Bread', 'titleB': 'Butter', 'predicted': 0.4034349322319031, 'actual': 0.619}
+{'titleA': 'Cucumber', 'titleB': 'Potato', 'predicted': 0.37628039717674255, 'actual': 0.592}
+{'titleA': 'Professor', 'titleB': 'Doctorate', 'predicted': 0.3592831790447235, 'actual': 0.662}
+{'titleA': 'Student', 'titleB': 'Professor', 'predicted': 0.3045792579650879, 'actual': 0.6809999999999999}
+{'titleA': 'Intelligence', 'titleB': 'Student', 'predicted': 0.16892410814762115, 'actual': 0.462}
+{'titleA': 'Intelligence', 'titleB': 'Stupidity', 'predicted': 0.34723520278930664, 'actual': 0.581}
+{'titleA': 'Company', 'titleB': 'Stock', 'predicted': 0.39632031321525574, 'actual': 0.708}
+{'titleA': 'Stock', 'titleB': 'Market', 'predicted': 0.12228122353553772, 'actual': 0.808}
+{'titleA': 'Stock', 'titleB': 'Telephone', 'predicted': 0.2028062343597412, 'actual': 0.162}
+{'titleA': 'Stock', 'titleB': 'Jaguar Cars', 'predicted': 0.22970493137836456, 'actual': 0.092}
+{'titleA': 'Stock', 'titleB': 'Life', 'predicted': 0.2458219826221466, 'actual': 0.373}
+{'titleA': 'Stock', 'titleB': 'Life', 'predicted': 0.2458219826221466, 'actual': 0.092}
+{'titleA': 'Book', 'titleB': 'Library', 'predicted': 0.41769200563430786, 'actual': 0.746}
+{'titleA': 'Bank', 'titleB': 'Money', 'predicted': 0.40738338232040405, 'actual': 0.8119999999999999}
+{'titleA': 'Wood', 'titleB': 'Forest', 'predicted': 0.4089358448982239, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Cash', 'predicted': 0.4574626088142395, 'actual': 0.915}
+{'titleA': 'Professor', 'titleB': 'Cucumber', 'predicted': 0.18311282992362976, 'actual': 0.031}
+{'titleA': 'King', 'titleB': 'Cabbage', 'predicted': 0.29100513458251953, 'actual': 0.023}
+{'titleA': 'King', 'titleB': 'Queen regnant', 'predicted': 0.39613470435142517, 'actual': 0.858}
+{'titleA': 'King (chess)', 'titleB': 'Rook (chess)', 'predicted': 0.5544502139091492, 'actual': 0.592}
+{'titleA': 'Bishop', 'titleB': 'Rabbi', 'predicted': 0.4310440123081207, 'actual': 0.669}
+{'titleA': 'Jerusalem', 'titleB': 'Israel', 'predicted': 0.6145606637001038, 'actual': 0.8460000000000001}
+{'titleA': 'Fuck', 'titleB': 'Sexual intercourse', 'predicted': 0.20431643724441528, 'actual': 0.944}
+{'titleA': 'Diego Maradona', 'titleB': 'Association football', 'predicted': 0.27746817469596863, 'actual': 0.8619999999999999}
+{'titleA': 'Association football', 'titleB': 'Association football', 'predicted': 1.0, 'actual': 0.9029999999999999}
+{'titleA': 'American football', 'titleB': 'Basketball', 'predicted': 0.5368129014968872, 'actual': 0.6809999999999999}
+{'titleA': 'Association football', 'titleB': 'Tennis', 'predicted': 0.3799915015697479, 'actual': 0.663}
+{'titleA': 'Yasser Arafat', 'titleB': 'Peace', 'predicted': 0.22723601758480072, 'actual': 0.673}
+{'titleA': 'Yasser Arafat', 'titleB': 'Terrorism', 'predicted': 0.29550570249557495, 'actual': 0.765}
+{'titleA': 'Yasser Arafat', 'titleB': 'Michael Jackson', 'predicted': 0.10935688763856888, 'actual': 0.25}
+{'titleA': 'Law', 'titleB': 'Lawyer', 'predicted': 0.39135196805000305, 'actual': 0.8380000000000001}
+{'titleA': 'Film', 'titleB': 'Celebrity', 'predicted': 0.290449857711792, 'actual': 0.738}
+{'titleA': 'Film', 'titleB': 'Popcorn', 'predicted': 0.20141218602657318, 'actual': 0.619}
+{'titleA': 'Film', 'titleB': 'Film criticism', 'predicted': 0.3374500572681427, 'actual': 0.673}
+{'titleA': 'Film', 'titleB': 'Movie theater', 'predicted': 0.4403528571128845, 'actual': 0.792}
+{'titleA': 'Physics', 'titleB': 'Proton', 'predicted': 0.4225434958934784, 'actual': 0.8119999999999999}
+{'titleA': 'Physics', 'titleB': 'Chemistry', 'predicted': 0.4720054864883423, 'actual': 0.735}
+{'titleA': 'Space', 'titleB': 'Chemistry', 'predicted': 0.4238722622394562, 'actual': 0.488}
+{'titleA': 'Alcohol', 'titleB': 'Chemistry', 'predicted': 0.11607185006141663, 'actual': 0.554}
+{'titleA': 'Vodka', 'titleB': 'Gin', 'predicted': 0.4734613299369812, 'actual': 0.8460000000000001}
+{'titleA': 'Vodka', 'titleB': 'Brandy', 'predicted': 0.4714624881744385, 'actual': 0.8130000000000001}
+{'titleA': 'Drink', 'titleB': 'Ear', 'predicted': 0.179256871342659, 'actual': 0.131}
+{'titleA': 'Drink', 'titleB': 'Mouth', 'predicted': 0.17802198231220245, 'actual': 0.596}
+{'titleA': 'Drinking', 'titleB': 'Eating', 'predicted': 0.2618246078491211, 'actual': 0.687}
+{'titleA': 'Infant', 'titleB': 'Mother', 'predicted': 0.2848045229911804, 'actual': 0.7849999999999999}
+{'titleA': 'Drink', 'titleB': 'Mother', 'predicted': 0.2671833634376526, 'actual': 0.265}
+{'titleA': 'Gemstone', 'titleB': 'Gemstone', 'predicted': 1.0, 'actual': 0.8960000000000001}
+{'titleA': 'Travel', 'titleB': 'Voyage', 'predicted': 0.1363556832075119, 'actual': 0.9289999999999999}
+{'titleA': 'Coast', 'titleB': 'Shore', 'predicted': 0.23439474403858185, 'actual': 0.9099999999999999}
+{'titleA': 'Magician (fantasy)', 'titleB': 'Magician (fantasy)', 'predicted': 1.0, 'actual': 0.9019999999999999}
+{'titleA': 'Noon', 'titleB': 'Noon', 'predicted': 1.0, 'actual': 0.9289999999999999}
+{'titleA': 'Furnace', 'titleB': 'Stove', 'predicted': 0.13195529580116272, 'actual': 0.8789999999999999}
+{'titleA': 'Food', 'titleB': 'Fruit', 'predicted': 0.34010082483291626, 'actual': 0.752}
+{'titleA': 'Bird', 'titleB': 'Crane (bird)', 'predicted': 0.4484711289405823, 'actual': 0.738}
+{'titleA': 'Tool', 'titleB': 'Tool', 'predicted': 1.0, 'actual': 0.646}
+{'titleA': 'Monk', 'titleB': 'Monk', 'predicted': 1.0, 'actual': 0.627}
+{'titleA': 'Crane (machine)', 'titleB': 'Tool', 'predicted': 0.3142058849334717, 'actual': 0.269}
+{'titleA': 'Monk', 'titleB': 'Oracle', 'predicted': 0.2455180436372757, 'actual': 0.5}
+{'titleA': 'Cemetery', 'titleB': 'Woodland', 'predicted': 0.18584583699703217, 'actual': 0.20800000000000002}
+{'titleA': 'Coast', 'titleB': 'Hill', 'predicted': 0.28193530440330505, 'actual': 0.438}
+{'titleA': 'Shore', 'titleB': 'Woodland', 'predicted': 0.24758878350257874, 'actual': 0.308}
+{'titleA': 'Monk', 'titleB': 'Slavery', 'predicted': 0.2536700963973999, 'actual': 0.092}
+{'titleA': 'Coast', 'titleB': 'Forest', 'predicted': 0.31743505597114563, 'actual': 0.315}
+{'titleA': 'Chord (geometry)', 'titleB': 'Smile', 'predicted': 0.15548521280288696, 'actual': 0.054000000000000006}
+{'titleA': 'Glass', 'titleB': 'Magic (illusion)', 'predicted': 0.1900721788406372, 'actual': 0.20800000000000002}
+{'titleA': 'Noon', 'titleB': 'Twine', 'predicted': 0.16354575753211975, 'actual': 0.054000000000000006}
+{'titleA': 'Money', 'titleB': 'Dollar', 'predicted': 0.37277913093566895, 'actual': 0.842}
+{'titleA': 'Money', 'titleB': 'Cash', 'predicted': 0.4574626088142395, 'actual': 0.908}
+{'titleA': 'Money', 'titleB': 'Currency', 'predicted': 0.5917412042617798, 'actual': 0.9039999999999999}
+{'titleA': 'Money', 'titleB': 'Property', 'predicted': 0.2990822494029999, 'actual': 0.757}
+{'titleA': 'Money', 'titleB': 'Possession (law)', 'predicted': 0.20465002954006195, 'actual': 0.729}
+{'titleA': 'Money', 'titleB': 'Bank', 'predicted': 0.40738338232040405, 'actual': 0.85}
+{'titleA': 'Money', 'titleB': 'Deposit account', 'predicted': 0.3359876275062561, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Money laundering', 'predicted': 0.313542902469635, 'actual': 0.5650000000000001}
+{'titleA': 'Money', 'titleB': 'Surgery', 'predicted': 0.19060349464416504, 'actual': 0.331}
+{'titleA': 'Tiger', 'titleB': 'Jaguar', 'predicted': 0.5131429433822632, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Felidae', 'predicted': 0.4115324020385742, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Carnivore', 'predicted': 0.31422126293182373, 'actual': 0.708}
+{'titleA': 'Tiger', 'titleB': 'Mammal', 'predicted': 0.38971146941185, 'actual': 0.6849999999999999}
+{'titleA': 'Tiger', 'titleB': 'Animal', 'predicted': 0.3431684970855713, 'actual': 0.7}
+{'titleA': 'Tiger', 'titleB': 'Organism', 'predicted': 0.2404247522354126, 'actual': 0.477}
+{'titleA': 'Tiger', 'titleB': 'Fauna', 'predicted': 0.24911847710609436, 'actual': 0.562}
+{'titleA': 'Tiger', 'titleB': 'Zoo', 'predicted': 0.2503817081451416, 'actual': 0.587}
+{'titleA': 'Psychology', 'titleB': 'Psychiatry', 'predicted': 0.4579264223575592, 'actual': 0.808}
+{'titleA': 'Psychology', 'titleB': 'Anxiety', 'predicted': 0.4447971284389496, 'actual': 0.7}
+{'titleA': 'Psychology', 'titleB': 'Fear', 'predicted': 0.36605527997016907, 'actual': 0.6849999999999999}
+{'titleA': 'Psychology', 'titleB': 'Major depressive disorder', 'predicted': 0.4291224479675293, 'actual': 0.742}
+{'titleA': 'Psychology', 'titleB': 'Clinic', 'predicted': 0.20473502576351166, 'actual': 0.658}
+{'titleA': 'Psychology', 'titleB': 'Physician', 'predicted': 0.2917225956916809, 'actual': 0.642}
+{'titleA': 'Psychology', 'titleB': 'Sigmund Freud', 'predicted': 0.5274709463119507, 'actual': 0.8210000000000001}
+{'titleA': 'Psychology', 'titleB': 'Mind', 'predicted': 0.49591460824012756, 'actual': 0.769}
+{'titleA': 'Psychology', 'titleB': 'Health', 'predicted': 0.3532744348049164, 'actual': 0.7230000000000001}
+{'titleA': 'Psychology', 'titleB': 'Science', 'predicted': 0.46083706617355347, 'actual': 0.671}
+{'titleA': 'Psychology', 'titleB': 'Cognition', 'predicted': 0.3942800760269165, 'actual': 0.748}
+{'titleA': 'Planet', 'titleB': 'Star', 'predicted': 0.5219522714614868, 'actual': 0.845}
+{'titleA': 'Planet', 'titleB': 'Constellation', 'predicted': 0.3904069662094116, 'actual': 0.806}
+{'titleA': 'Planet', 'titleB': 'Natural satellite', 'predicted': 0.4913034439086914, 'actual': 0.808}
+{'titleA': 'Planet', 'titleB': 'Sun', 'predicted': 0.49591264128685, 'actual': 0.8019999999999999}
+{'titleA': 'Planet', 'titleB': 'Galaxy', 'predicted': 0.4816901385784149, 'actual': 0.8109999999999999}
+{'titleA': 'Planet', 'titleB': 'Outer space', 'predicted': 0.4302893579006195, 'actual': 0.792}
+{'titleA': 'Planet', 'titleB': 'Astronomer', 'predicted': 0.219760000705719, 'actual': 0.794}
+{'titleA': 'Precedent', 'titleB': 'Information', 'predicted': 0.225505530834198, 'actual': 0.385}
+{'titleA': 'Precedent', 'titleB': 'Cognition', 'predicted': 0.23616528511047363, 'actual': 0.281}
+{'titleA': 'Precedent', 'titleB': 'Law', 'predicted': 0.38294175267219543, 'actual': 0.665}
+{'titleA': 'Precedent', 'titleB': 'Collecting', 'predicted': 0.13769829273223877, 'actual': 0.25}
+{'titleA': 'Jaguar', 'titleB': 'Cat', 'predicted': 0.38407909870147705, 'actual': 0.742}
+{'titleA': 'Energy', 'titleB': 'Secretary', 'predicted': 0.17938393354415894, 'actual': 0.181}
+{'titleA': 'Minister (government)', 'titleB': 'Senate', 'predicted': 0.3428819477558136, 'actual': 0.506}
+{'titleA': 'Energy', 'titleB': 'Laboratory', 'predicted': 0.22100132703781128, 'actual': 0.509}
+{'titleA': 'Computer', 'titleB': 'Laboratory', 'predicted': 0.1698063313961029, 'actual': 0.678}
+{'titleA': 'Weapon', 'titleB': 'Secrecy', 'predicted': 0.1874477118253708, 'actual': 0.606}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Fingerprint', 'predicted': 0.244193896651268, 'actual': 0.6940000000000001}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Criminal procedure', 'predicted': 0.19535492360591888, 'actual': 0.8310000000000001}
+{'titleA': 'Investigation', 'titleB': 'Energy', 'predicted': 0.0736350566148758, 'actual': 0.45899999999999996}
+{'titleA': 'Mars', 'titleB': 'Water', 'predicted': 0.394862562417984, 'actual': 0.294}
+{'titleA': 'Mars', 'titleB': 'Scientist', 'predicted': 0.24177129566669464, 'actual': 0.563}
+{'titleA': 'News', 'titleB': 'Report', 'predicted': 0.21220283210277557, 'actual': 0.8160000000000001}
+{'titleA': 'Canyon', 'titleB': 'Landscape', 'predicted': 0.24688631296157837, 'actual': 0.753}
+{'titleA': 'Image', 'titleB': 'Surface', 'predicted': 0.2545487582683563, 'actual': 0.45599999999999996}
+{'titleA': 'Discovery (observation)', 'titleB': 'Space', 'predicted': 0.31598395109176636, 'actual': 0.634}
+{'titleA': 'Water', 'titleB': 'Soil mechanics', 'predicted': 0.34097781777381897, 'actual': 0.6559999999999999}
+{'titleA': 'Sign', 'titleB': 'Recess (break)', 'predicted': 0.16251897811889648, 'actual': 0.238}
+{'titleA': 'Wednesday', 'titleB': 'News', 'predicted': 0.146670401096344, 'actual': 0.22200000000000003}
+{'titleA': 'Mile', 'titleB': 'Kilometre', 'predicted': 0.4312223196029663, 'actual': 0.866}
+{'titleA': 'Computer', 'titleB': 'News', 'predicted': 0.23638083040714264, 'actual': 0.44699999999999995}
+{'titleA': 'Territory', 'titleB': 'Surface', 'predicted': 0.20375864207744598, 'actual': 0.534}
+{'titleA': 'Atmosphere', 'titleB': 'Landscape', 'predicted': 0.1899448037147522, 'actual': 0.369}
+{'titleA': 'President', 'titleB': 'Medal', 'predicted': 0.08746069669723511, 'actual': 0.3}
+{'titleA': 'War', 'titleB': 'Soldier', 'predicted': 0.16278471052646637, 'actual': 0.8130000000000001}
+{'titleA': 'World record', 'titleB': 'Number', 'predicted': 0.136465385556221, 'actual': 0.631}
+{'titleA': 'Skin', 'titleB': 'Eye', 'predicted': 0.45663073658943176, 'actual': 0.622}
+{'titleA': 'Japanese people', 'titleB': 'United States', 'predicted': 0.3006305992603302, 'actual': 0.65}
+{'titleA': 'Theatre', 'titleB': 'History', 'predicted': 0.36350196599960327, 'actual': 0.391}
+{'titleA': 'Prejudice', 'titleB': 'Recognition', 'predicted': 0.17910076677799225, 'actual': 0.3}
+{'titleA': 'Century', 'titleB': 'Year', 'predicted': 0.34937354922294617, 'actual': 0.759}
+{'titleA': 'Century', 'titleB': 'Nation', 'predicted': 0.2386901080608368, 'actual': 0.316}
+{'titleA': 'Delay', 'titleB': 'Racism', 'predicted': 0.14236481487751007, 'actual': 0.119}
+{'titleA': 'Delay', 'titleB': 'News', 'predicted': 0.16899903118610382, 'actual': 0.331}
+{'titleA': 'Minister (government)', 'titleB': 'Political party', 'predicted': 0.22526802122592926, 'actual': 0.663}
+{'titleA': 'Minority group', 'titleB': 'Peace', 'predicted': 0.26021671295166016, 'actual': 0.369}
+{'titleA': 'Government', 'titleB': 'Crisis', 'predicted': 0.25133949518203735, 'actual': 0.6559999999999999}
+{'titleA': 'Military deployment', 'titleB': 'Departure', 'predicted': 0.1765134334564209, 'actual': 0.425}
+{'titleA': 'Military deployment', 'titleB': 'Withdrawal (military)', 'predicted': 0.1843072474002838, 'actual': 0.588}
+{'titleA': 'Energy industry', 'titleB': 'Crisis', 'predicted': 0.22544287145137787, 'actual': 0.5940000000000001}
+{'titleA': 'Announcer', 'titleB': 'News', 'predicted': 0.22996176779270172, 'actual': 0.756}
+{'titleA': 'Announcer', 'titleB': 'Energy', 'predicted': 0.14580732583999634, 'actual': 0.275}
+{'titleA': 'Stroke', 'titleB': 'Hospital', 'predicted': 0.26221320033073425, 'actual': 0.7030000000000001}
+{'titleA': 'Disability', 'titleB': 'Death', 'predicted': 0.3517080843448639, 'actual': 0.5469999999999999}
+{'titleA': 'Victimology', 'titleB': 'Emergency', 'predicted': 0.1678709089756012, 'actual': 0.647}
+{'titleA': 'Medication', 'titleB': 'Healing', 'predicted': 0.27511894702911377, 'actual': 0.791}
+{'titleA': 'Physician', 'titleB': 'Human resources', 'predicted': 0.24299976229667664, 'actual': 0.5}
+{'titleA': 'Physician', 'titleB': 'Liability', 'predicted': 0.03315034508705139, 'actual': 0.519}
+{'titleA': 'Liability', 'titleB': 'Insurance', 'predicted': 0.13604985177516937, 'actual': 0.7030000000000001}
+{'titleA': 'Reason', 'titleB': 'Hypertension', 'predicted': 0.20310938358306885, 'actual': 0.231}
+{'titleA': 'Harvard University', 'titleB': 'Yale University', 'predicted': 0.43844226002693176, 'actual': 0.8130000000000001}
+{'titleA': 'Hospital', 'titleB': 'Infrastructure', 'predicted': 0.29931339621543884, 'actual': 0.46299999999999997}
+{'titleA': 'Capital punishment', 'titleB': 'Convict', 'predicted': 0.23037844896316528, 'actual': 0.503}
+{'titleA': 'Lawyer', 'titleB': 'Evidence (law)', 'predicted': 0.3468968868255615, 'actual': 0.669}
+{'titleA': 'Life', 'titleB': 'Death', 'predicted': 0.42340919375419617, 'actual': 0.788}
+{'titleA': 'Governor', 'titleB': 'Interview', 'predicted': 0.13161715865135193, 'actual': 0.325}
+{'titleA': 'OPEC', 'titleB': 'Country', 'predicted': 0.19581754505634308, 'actual': 0.563}
+{'titleA': 'Peace', 'titleB': 'Atmosphere', 'predicted': 0.142141655087471, 'actual': 0.369}
+{'titleA': 'Peace', 'titleB': 'Insurance', 'predicted': 0.2583392560482025, 'actual': 0.294}
+{'titleA': 'Territory', 'titleB': 'Kilometre', 'predicted': 0.28375521302223206, 'actual': 0.528}
+{'titleA': 'Competition (economics)', 'titleB': 'Price', 'predicted': 0.3810178339481354, 'actual': 0.644}
+{'titleA': 'Consumer', 'titleB': 'Confidence', 'predicted': 0.13674992322921753, 'actual': 0.413}
+{'titleA': 'Grocery store', 'titleB': 'Money', 'predicted': 0.2761394679546356, 'actual': 0.5940000000000001}
+{'titleA': 'Month', 'titleB': 'Hotel', 'predicted': 0.20368073880672455, 'actual': 0.181}
+{'titleA': 'Bed', 'titleB': 'Closet', 'predicted': 0.27606335282325745, 'actual': 0.6719999999999999}
+{'titleA': 'Closet', 'titleB': 'Clothing', 'predicted': 0.15682950615882874, 'actual': 0.8}
+{'titleA': 'Impartiality', 'titleB': 'Interest (emotion)', 'predicted': 0.11244425177574158, 'actual': 0.516}
+{'titleA': 'Street', 'titleB': 'Place', 'predicted': 0.17668619751930237, 'actual': 0.644}
+{'titleA': 'Street', 'titleB': 'Avenue (landscape)', 'predicted': 0.395625501871109, 'actual': 0.8880000000000001}
+{'titleA': 'Street', 'titleB': 'City block', 'predicted': 0.42779508233070374, 'actual': 0.688}
+{'titleA': 'Street', 'titleB': 'Child', 'predicted': 0.29644158482551575, 'actual': 0.49400000000000005}
+{'titleA': 'Listed building', 'titleB': 'Distance', 'predicted': 0.158833846449852, 'actual': 0.256}
+{'titleA': 'Cellular network', 'titleB': 'Telephone', 'predicted': 0.36426350474357605, 'actual': 0.7809999999999999}
+{'titleA': 'Mass media', 'titleB': 'Trade', 'predicted': 0.2505838871002197, 'actual': 0.388}
+{'titleA': 'Dividend', 'titleB': 'Payment', 'predicted': 0.24228708446025848, 'actual': 0.763}
+{'titleA': 'Division (mathematics)', 'titleB': 'Calculation', 'predicted': 0.2944042682647705, 'actual': 0.648}
+{'titleA': 'Calculation', 'titleB': 'Computation', 'predicted': 0.32685530185699463, 'actual': 0.844}
+{'titleA': 'Currency', 'titleB': 'Market', 'predicted': 0.1388498842716217, 'actual': 0.75}
+{'titleA': 'OPEC', 'titleB': 'Oil', 'predicted': 0.17364129424095154, 'actual': 0.859}
+{'titleA': 'Oil', 'titleB': 'Stock', 'predicted': 0.22841452062129974, 'actual': 0.634}
+{'titleA': 'Dollar', 'titleB': 'Japanese yen', 'predicted': 0.4502072334289551, 'actual': 0.778}
+{'titleA': 'Dollar', 'titleB': 'Dollar', 'predicted': 1.0, 'actual': 0.922}
+{'titleA': 'Dollar', 'titleB': 'Deficit', 'predicted': 0.13405366241931915, 'actual': 0.609}
+{'titleA': 'Computer network', 'titleB': 'Computer hardware', 'predicted': 0.3270699083805084, 'actual': 0.8310000000000001}
+{'titleA': 'Telephone', 'titleB': 'Tool', 'predicted': 0.21359224617481232, 'actual': 0.713}
+{'titleA': 'Tool', 'titleB': 'Manufacturing', 'predicted': 0.34438374638557434, 'actual': 0.591}
+{'titleA': 'Liquid', 'titleB': 'Water', 'predicted': 0.4207201600074768, 'actual': 0.7889999999999999}
+{'titleA': 'Baseball', 'titleB': 'Season (sports)', 'predicted': 0.30953505635261536, 'actual': 0.597}
+{'titleA': 'Game', 'titleB': 'Team', 'predicted': 0.35119372606277466, 'actual': 0.769}
+{'titleA': 'Seafood', 'titleB': 'Sea', 'predicted': 0.33696427941322327, 'actual': 0.747}
+{'titleA': 'Seafood', 'titleB': 'Food', 'predicted': 0.427676260471344, 'actual': 0.834}
+{'titleA': 'Seafood', 'titleB': 'Lobster', 'predicted': 0.348951518535614, 'actual': 0.8699999999999999}
+{'titleA': 'Lobster', 'titleB': 'Food', 'predicted': 0.37900233268737793, 'actual': 0.7809999999999999}
+{'titleA': 'Lobster', 'titleB': 'Wine', 'predicted': 0.3257879614830017, 'actual': 0.5700000000000001}
+{'titleA': 'Food', 'titleB': 'Cooking', 'predicted': 0.502751350402832, 'actual': 0.622}
+{'titleA': 'Video', 'titleB': 'Archive', 'predicted': 0.22629934549331665, 'actual': 0.634}
+{'titleA': 'Game', 'titleB': 'Tournament', 'predicted': 0.30274301767349243, 'actual': 0.597}
+{'titleA': 'Championship', 'titleB': 'Tournament', 'predicted': 0.45813411474227905, 'actual': 0.836}
+{'titleA': 'Telephone line', 'titleB': 'Insurance', 'predicted': 0.12717197835445404, 'actual': 0.269}
+{'titleA': 'Day', 'titleB': 'Summer', 'predicted': 0.36365577578544617, 'actual': 0.394}
+{'titleA': 'Summer', 'titleB': 'Drought', 'predicted': 0.2518787086009979, 'actual': 0.716}
+{'titleA': 'Summer', 'titleB': 'Nature', 'predicted': 0.23722609877586365, 'actual': 0.563}
+{'titleA': 'Day', 'titleB': 'Dawn', 'predicted': 0.4489428997039795, 'actual': 0.753}
+{'titleA': 'Nature', 'titleB': 'Natural environment', 'predicted': 0.6314144730567932, 'actual': 0.8310000000000001}
+{'titleA': 'Natural environment', 'titleB': 'Ecology', 'predicted': 0.4667644202709198, 'actual': 0.881}
+{'titleA': 'Man', 'titleB': 'Woman', 'predicted': 0.4026447832584381, 'actual': 0.8300000000000001}
+{'titleA': 'Man', 'titleB': 'Governor', 'predicted': 0.20037512481212616, 'actual': 0.525}
+{'titleA': 'Murder', 'titleB': 'Manslaughter', 'predicted': 0.4426521062850952, 'actual': 0.853}
+{'titleA': 'Soap opera', 'titleB': 'Opera', 'predicted': 0.2937489151954651, 'actual': 0.794}
+{'titleA': 'Opera', 'titleB': 'Performance', 'predicted': 0.19400961697101593, 'actual': 0.688}
+{'titleA': 'Attention', 'titleB': 'Personal life', 'predicted': 0.2423814833164215, 'actual': 0.40599999999999997}
+{'titleA': 'Manufacturing', 'titleB': 'Crew', 'predicted': 0.14221560955047607, 'actual': 0.625}
+{'titleA': 'Television', 'titleB': 'Film', 'predicted': 0.39414182305336, 'actual': 0.772}
+{'titleA': 'Observation', 'titleB': 'Serial (radio and television)', 'predicted': 0.18519650399684906, 'actual': 0.29700000000000004}
+{'titleA': 'Possibility', 'titleB': 'Girl', 'predicted': 0.08037588745355606, 'actual': 0.194}
+{'titleA': 'Morality', 'titleB': 'Marriage', 'predicted': 0.3149434030056, 'actual': 0.369}
+{'titleA': 'Mexico', 'titleB': 'Brazil', 'predicted': 0.5818389058113098, 'actual': 0.744}
+{'titleA': 'Gender', 'titleB': 'Equality', 'predicted': 0.19545848667621613, 'actual': 0.641}
+{'titleA': 'Social change', 'titleB': 'Attitude (psychology)', 'predicted': 0.29646798968315125, 'actual': 0.544}
+{'titleA': 'Family', 'titleB': 'Planning', 'predicted': 0.2273455262184143, 'actual': 0.625}
+{'titleA': 'Opera', 'titleB': 'Industry', 'predicted': 0.06512488424777985, 'actual': 0.263}
+{'titleA': 'Minister (Christianity)', 'titleB': 'Culture', 'predicted': 0.19960883259773254, 'actual': 0.46900000000000003}
+{'titleA': 'Size', 'titleB': 'Topographic prominence', 'predicted': 0.1907084584236145, 'actual': 0.5309999999999999}
+{'titleA': 'Country', 'titleB': 'Citizenship', 'predicted': 0.2689950168132782, 'actual': 0.731}
+{'titleA': 'Planet', 'titleB': 'People', 'predicted': 0.15283946692943573, 'actual': 0.575}
+{'titleA': 'Experience', 'titleB': 'Music', 'predicted': 0.27546578645706177, 'actual': 0.34700000000000003}
+{'titleA': 'Music', 'titleB': 'Project', 'predicted': 0.19976681470870972, 'actual': 0.363}
+{'titleA': 'Glass', 'titleB': 'Metal', 'predicted': 0.5076640844345093, 'actual': 0.5559999999999999}
+{'titleA': 'Aluminium', 'titleB': 'Metal', 'predicted': 0.584221363067627, 'actual': 0.783}
+{'titleA': 'Probability', 'titleB': 'Credibility', 'predicted': 0.1980527639389038, 'actual': 0.388}
+{'titleA': 'Collection (museum)', 'titleB': 'Souvenir', 'predicted': 0.26123306155204773, 'actual': 0.5309999999999999}
+{'titleA': 'Concert', 'titleB': 'Virtuoso', 'predicted': 0.28471481800079346, 'actual': 0.6809999999999999}
+{'titleA': 'Rock music', 'titleB': 'Jazz', 'predicted': 0.4480989873409271, 'actual': 0.759}
+{'titleA': 'Museum', 'titleB': 'Theater (structure)', 'predicted': 0.24431057274341583, 'actual': 0.7190000000000001}
+{'titleA': 'Observation', 'titleB': 'Architecture', 'predicted': 0.2303687483072281, 'actual': 0.438}
+{'titleA': 'Space', 'titleB': 'World', 'predicted': 0.4451087415218353, 'actual': 0.653}
+{'titleA': 'Rain', 'titleB': 'Thunderstorm', 'predicted': 0.5207961201667786, 'actual': 0.631}
+{'titleA': 'Rain', 'titleB': 'Flood', 'predicted': 0.36127451062202454, 'actual': 0.603}
+{'titleA': 'Weather', 'titleB': 'Weather forecasting', 'predicted': 0.4087478518486023, 'actual': 0.834}
+{'titleA': 'Disaster', 'titleB': 'Area', 'predicted': 0.139277845621109, 'actual': 0.625}
+{'titleA': 'Governor', 'titleB': 'Office', 'predicted': 0.21413525938987732, 'actual': 0.634}
+{'titleA': 'Architecture', 'titleB': 'Century', 'predicted': 0.1923951655626297, 'actual': 0.378}
+ar :
+{'titleA': 'Love', 'titleB': 'Sexual intercourse', 'predicted': 0.32990214228630066, 'actual': 0.6769999999999999}
+{'titleA': 'Tiger', 'titleB': 'Cat', 'predicted': 0.38733237981796265, 'actual': 0.735}
+{'titleA': 'Tiger', 'titleB': 'Tiger', 'predicted': 1.0, 'actual': 1.0}
+{'titleA': 'Book', 'titleB': 'Paper', 'predicted': 0.20350995659828186, 'actual': 0.746}
+{'titleA': 'Computer', 'titleB': 'Internet', 'predicted': 0.352900892496109, 'actual': 0.758}
+{'titleA': 'Television', 'titleB': 'Radio broadcasting', 'predicted': 0.3487241268157959, 'actual': 0.6769999999999999}
+{'titleA': 'Mass media', 'titleB': 'Radio broadcasting', 'predicted': 0.3154613971710205, 'actual': 0.742}
+{'titleA': 'Bread', 'titleB': 'Butter', 'predicted': 0.41005629301071167, 'actual': 0.619}
+{'titleA': 'Cucumber', 'titleB': 'Potato', 'predicted': 0.5084900856018066, 'actual': 0.592}
+{'titleA': 'Professor', 'titleB': 'Doctorate', 'predicted': 0.5496814250946045, 'actual': 0.662}
+{'titleA': 'Student', 'titleB': 'Professor', 'predicted': 0.3540392816066742, 'actual': 0.6809999999999999}
+{'titleA': 'Intelligence', 'titleB': 'Student', 'predicted': 0.21179816126823425, 'actual': 0.462}
+{'titleA': 'Intelligence', 'titleB': 'Stupidity', 'predicted': 0.2987455427646637, 'actual': 0.581}
+{'titleA': 'Company', 'titleB': 'Stock', 'predicted': 0.35591980814933777, 'actual': 0.708}
+{'titleA': 'Stock', 'titleB': 'Telephone', 'predicted': 0.12318836152553558, 'actual': 0.162}
+{'titleA': 'Stock', 'titleB': 'Jaguar Cars', 'predicted': 0.19398647546768188, 'actual': 0.092}
+{'titleA': 'Stock', 'titleB': 'Life', 'predicted': 0.09729230403900146, 'actual': 0.373}
+{'titleA': 'Stock', 'titleB': 'Life', 'predicted': 0.09729230403900146, 'actual': 0.092}
+{'titleA': 'Book', 'titleB': 'Library', 'predicted': 0.5023120045661926, 'actual': 0.746}
+{'titleA': 'Bank', 'titleB': 'Money', 'predicted': 0.3171088397502899, 'actual': 0.8119999999999999}
+{'titleA': 'Wood', 'titleB': 'Forest', 'predicted': 0.41973569989204407, 'actual': 0.773}
+{'titleA': 'Professor', 'titleB': 'Cucumber', 'predicted': 0.11576562374830246, 'actual': 0.031}
+{'titleA': 'Bishop', 'titleB': 'Rabbi', 'predicted': 0.2847723960876465, 'actual': 0.669}
+{'titleA': 'Jerusalem', 'titleB': 'Israel', 'predicted': 0.41110220551490784, 'actual': 0.8460000000000001}
+{'titleA': 'Fuck', 'titleB': 'Sexual intercourse', 'predicted': 0.2855585515499115, 'actual': 0.944}
+{'titleA': 'Diego Maradona', 'titleB': 'Association football', 'predicted': 0.2545732855796814, 'actual': 0.8619999999999999}
+{'titleA': 'Association football', 'titleB': 'Association football', 'predicted': 1.0, 'actual': 0.9029999999999999}
+{'titleA': 'American football', 'titleB': 'Basketball', 'predicted': 0.33561843633651733, 'actual': 0.6809999999999999}
+{'titleA': 'Association football', 'titleB': 'Tennis', 'predicted': 0.380719393491745, 'actual': 0.663}
+{'titleA': 'Yasser Arafat', 'titleB': 'Peace', 'predicted': 0.12385082244873047, 'actual': 0.673}
+{'titleA': 'Yasser Arafat', 'titleB': 'Terrorism', 'predicted': 0.18331687152385712, 'actual': 0.765}
+{'titleA': 'Yasser Arafat', 'titleB': 'Michael Jackson', 'predicted': 0.176514133810997, 'actual': 0.25}
+{'titleA': 'Law', 'titleB': 'Lawyer', 'predicted': 0.20930007100105286, 'actual': 0.8380000000000001}
+{'titleA': 'Film', 'titleB': 'Celebrity', 'predicted': 0.10338500142097473, 'actual': 0.738}
+{'titleA': 'Film', 'titleB': 'Popcorn', 'predicted': 0.1993694007396698, 'actual': 0.619}
+{'titleA': 'Film', 'titleB': 'Film criticism', 'predicted': 0.4266889989376068, 'actual': 0.673}
+{'titleA': 'Film', 'titleB': 'Movie theater', 'predicted': 0.33265501260757446, 'actual': 0.792}
+{'titleA': 'Physics', 'titleB': 'Proton', 'predicted': 0.4534158706665039, 'actual': 0.8119999999999999}
+{'titleA': 'Physics', 'titleB': 'Chemistry', 'predicted': 0.48879721760749817, 'actual': 0.735}
+{'titleA': 'Space', 'titleB': 'Chemistry', 'predicted': 0.36551305651664734, 'actual': 0.488}
+{'titleA': 'Drink', 'titleB': 'Ear', 'predicted': 0.10668881237506866, 'actual': 0.131}
+{'titleA': 'Drinking', 'titleB': 'Eating', 'predicted': 0.2892749309539795, 'actual': 0.687}
+{'titleA': 'Infant', 'titleB': 'Mother', 'predicted': 0.19562695920467377, 'actual': 0.7849999999999999}
+{'titleA': 'Drink', 'titleB': 'Mother', 'predicted': 0.20441052317619324, 'actual': 0.265}
+{'titleA': 'Gemstone', 'titleB': 'Gemstone', 'predicted': 1.0, 'actual': 0.8960000000000001}
+{'titleA': 'Magician (fantasy)', 'titleB': 'Magician (fantasy)', 'predicted': 1.0, 'actual': 0.9019999999999999}
+{'titleA': 'Food', 'titleB': 'Fruit', 'predicted': 0.39865389466285706, 'actual': 0.752}
+{'titleA': 'Cemetery', 'titleB': 'Woodland', 'predicted': 0.221519336104393, 'actual': 0.20800000000000002}
+{'titleA': 'Coast', 'titleB': 'Hill', 'predicted': 0.334766149520874, 'actual': 0.438}
+{'titleA': 'Coast', 'titleB': 'Forest', 'predicted': 0.2608335018157959, 'actual': 0.315}
+{'titleA': 'Chord (geometry)', 'titleB': 'Smile', 'predicted': 0.11977777630090714, 'actual': 0.054000000000000006}
+{'titleA': 'Glass', 'titleB': 'Magic (illusion)', 'predicted': 0.2027265876531601, 'actual': 0.20800000000000002}
+{'titleA': 'Money', 'titleB': 'Currency', 'predicted': 0.3512082099914551, 'actual': 0.9039999999999999}
+{'titleA': 'Money', 'titleB': 'Property', 'predicted': 0.3252885043621063, 'actual': 0.757}
+{'titleA': 'Money', 'titleB': 'Bank', 'predicted': 0.3171088397502899, 'actual': 0.85}
+{'titleA': 'Money', 'titleB': 'Deposit account', 'predicted': 0.3250081539154053, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Money laundering', 'predicted': 0.3081032931804657, 'actual': 0.5650000000000001}
+{'titleA': 'Money', 'titleB': 'Surgery', 'predicted': 0.2527637779712677, 'actual': 0.331}
+{'titleA': 'Tiger', 'titleB': 'Jaguar', 'predicted': 0.5714435577392578, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Felidae', 'predicted': 0.3550001084804535, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Carnivore', 'predicted': 0.307229220867157, 'actual': 0.708}
+{'titleA': 'Tiger', 'titleB': 'Mammal', 'predicted': 0.3530297875404358, 'actual': 0.6849999999999999}
+{'titleA': 'Tiger', 'titleB': 'Animal', 'predicted': 0.31145137548446655, 'actual': 0.7}
+{'titleA': 'Tiger', 'titleB': 'Organism', 'predicted': 0.1624552458524704, 'actual': 0.477}
+{'titleA': 'Tiger', 'titleB': 'Zoo', 'predicted': 0.2510785162448883, 'actual': 0.587}
+{'titleA': 'Psychology', 'titleB': 'Psychiatry', 'predicted': 0.4326627254486084, 'actual': 0.808}
+{'titleA': 'Psychology', 'titleB': 'Anxiety', 'predicted': 0.36893951892852783, 'actual': 0.7}
+{'titleA': 'Psychology', 'titleB': 'Fear', 'predicted': 0.33513525128364563, 'actual': 0.6849999999999999}
+{'titleA': 'Psychology', 'titleB': 'Major depressive disorder', 'predicted': 0.27628499269485474, 'actual': 0.742}
+{'titleA': 'Psychology', 'titleB': 'Physician', 'predicted': 0.2689952254295349, 'actual': 0.642}
+{'titleA': 'Psychology', 'titleB': 'Sigmund Freud', 'predicted': 0.28283193707466125, 'actual': 0.8210000000000001}
+{'titleA': 'Psychology', 'titleB': 'Mind', 'predicted': 0.4292808771133423, 'actual': 0.769}
+{'titleA': 'Psychology', 'titleB': 'Health', 'predicted': 0.3569383919239044, 'actual': 0.7230000000000001}
+{'titleA': 'Psychology', 'titleB': 'Science', 'predicted': 0.43437129259109497, 'actual': 0.671}
+{'titleA': 'Psychology', 'titleB': 'Cognition', 'predicted': 0.42598775029182434, 'actual': 0.748}
+{'titleA': 'Planet', 'titleB': 'Star', 'predicted': 0.564710795879364, 'actual': 0.845}
+{'titleA': 'Planet', 'titleB': 'Constellation', 'predicted': 0.4874975085258484, 'actual': 0.806}
+{'titleA': 'Planet', 'titleB': 'Natural satellite', 'predicted': 0.5286412239074707, 'actual': 0.808}
+{'titleA': 'Planet', 'titleB': 'Sun', 'predicted': 0.5188995003700256, 'actual': 0.8019999999999999}
+{'titleA': 'Planet', 'titleB': 'Galaxy', 'predicted': 0.5245486497879028, 'actual': 0.8109999999999999}
+{'titleA': 'Planet', 'titleB': 'Outer space', 'predicted': 0.4483318328857422, 'actual': 0.792}
+{'titleA': 'Planet', 'titleB': 'Astronomer', 'predicted': 0.3970765173435211, 'actual': 0.794}
+{'titleA': 'Precedent', 'titleB': 'Information', 'predicted': 0.1757224202156067, 'actual': 0.385}
+{'titleA': 'Precedent', 'titleB': 'Cognition', 'predicted': 0.20711426436901093, 'actual': 0.281}
+{'titleA': 'Precedent', 'titleB': 'Law', 'predicted': 0.4700886905193329, 'actual': 0.665}
+{'titleA': 'Jaguar', 'titleB': 'Cat', 'predicted': 0.34465208649635315, 'actual': 0.742}
+{'titleA': 'Energy', 'titleB': 'Laboratory', 'predicted': 0.24200639128684998, 'actual': 0.509}
+{'titleA': 'Computer', 'titleB': 'Laboratory', 'predicted': 0.22466230392456055, 'actual': 0.678}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Criminal procedure', 'predicted': 0.24801604449748993, 'actual': 0.8310000000000001}
+{'titleA': 'Mars', 'titleB': 'Water', 'predicted': 0.33629825711250305, 'actual': 0.294}
+{'titleA': 'Mars', 'titleB': 'Scientist', 'predicted': 0.13460353016853333, 'actual': 0.563}
+{'titleA': 'Discovery (observation)', 'titleB': 'Space', 'predicted': 0.3028445839881897, 'actual': 0.634}
+{'titleA': 'Water', 'titleB': 'Soil mechanics', 'predicted': 0.42224442958831787, 'actual': 0.6559999999999999}
+{'titleA': 'Mile', 'titleB': 'Kilometre', 'predicted': 0.4618673324584961, 'actual': 0.866}
+{'titleA': 'Skin', 'titleB': 'Eye', 'predicted': 0.3600398898124695, 'actual': 0.622}
+{'titleA': 'Japanese people', 'titleB': 'United States', 'predicted': 0.2078557163476944, 'actual': 0.65}
+{'titleA': 'Theatre', 'titleB': 'History', 'predicted': 0.30562177300453186, 'actual': 0.391}
+{'titleA': 'Minister (government)', 'titleB': 'Political party', 'predicted': 0.26206639409065247, 'actual': 0.663}
+{'titleA': 'Minority group', 'titleB': 'Peace', 'predicted': 0.21786682307720184, 'actual': 0.369}
+{'titleA': 'Government', 'titleB': 'Crisis', 'predicted': 0.17868076264858246, 'actual': 0.6559999999999999}
+{'titleA': 'Military deployment', 'titleB': 'Withdrawal (military)', 'predicted': 0.2667223811149597, 'actual': 0.588}
+{'titleA': 'Energy industry', 'titleB': 'Crisis', 'predicted': 0.22794495522975922, 'actual': 0.5940000000000001}
+{'titleA': 'Stroke', 'titleB': 'Hospital', 'predicted': 0.26091426610946655, 'actual': 0.7030000000000001}
+{'titleA': 'Disability', 'titleB': 'Death', 'predicted': 0.16923174262046814, 'actual': 0.5469999999999999}
+{'titleA': 'Medication', 'titleB': 'Healing', 'predicted': 0.33277627825737, 'actual': 0.791}
+{'titleA': 'Physician', 'titleB': 'Human resources', 'predicted': 0.3326275646686554, 'actual': 0.5}
+{'titleA': 'Reason', 'titleB': 'Hypertension', 'predicted': 0.18475422263145447, 'actual': 0.231}
+{'titleA': 'Harvard University', 'titleB': 'Yale University', 'predicted': 0.47933652997016907, 'actual': 0.8130000000000001}
+{'titleA': 'Hospital', 'titleB': 'Infrastructure', 'predicted': 0.18943235278129578, 'actual': 0.46299999999999997}
+{'titleA': 'Lawyer', 'titleB': 'Evidence (law)', 'predicted': 0.3774934411048889, 'actual': 0.669}
+{'titleA': 'Life', 'titleB': 'Death', 'predicted': 0.32298731803894043, 'actual': 0.788}
+{'titleA': 'Governor', 'titleB': 'Interview', 'predicted': 0.04076707363128662, 'actual': 0.325}
+{'titleA': 'OPEC', 'titleB': 'Country', 'predicted': 0.12965643405914307, 'actual': 0.563}
+{'titleA': 'Peace', 'titleB': 'Atmosphere', 'predicted': 0.06196548789739609, 'actual': 0.369}
+{'titleA': 'Peace', 'titleB': 'Insurance', 'predicted': 0.06356977671384811, 'actual': 0.294}
+{'titleA': 'Competition (economics)', 'titleB': 'Price', 'predicted': 0.44719597697257996, 'actual': 0.644}
+{'titleA': 'Grocery store', 'titleB': 'Money', 'predicted': 0.2573101818561554, 'actual': 0.5940000000000001}
+{'titleA': 'Closet', 'titleB': 'Clothing', 'predicted': 0.2889527976512909, 'actual': 0.8}
+{'titleA': 'Street', 'titleB': 'City block', 'predicted': 0.48343169689178467, 'actual': 0.688}
+{'titleA': 'Street', 'titleB': 'Child', 'predicted': 0.14928777515888214, 'actual': 0.49400000000000005}
+{'titleA': 'Cellular network', 'titleB': 'Telephone', 'predicted': 0.2667541205883026, 'actual': 0.7809999999999999}
+{'titleA': 'Mass media', 'titleB': 'Trade', 'predicted': 0.1835489124059677, 'actual': 0.388}
+{'titleA': 'Division (mathematics)', 'titleB': 'Calculation', 'predicted': 0.5866850018501282, 'actual': 0.648}
+{'titleA': 'Calculation', 'titleB': 'Computation', 'predicted': 0.2943117916584015, 'actual': 0.844}
+{'titleA': 'OPEC', 'titleB': 'Oil', 'predicted': 0.16844867169857025, 'actual': 0.859}
+{'titleA': 'Oil', 'titleB': 'Stock', 'predicted': 0.18824292719364166, 'actual': 0.634}
+{'titleA': 'Computer network', 'titleB': 'Computer hardware', 'predicted': 0.40383264422416687, 'actual': 0.8310000000000001}
+{'titleA': 'Liquid', 'titleB': 'Water', 'predicted': 0.31693798303604126, 'actual': 0.7889999999999999}
+{'titleA': 'Game', 'titleB': 'Team', 'predicted': 0.27498841285705566, 'actual': 0.769}
+{'titleA': 'Seafood', 'titleB': 'Sea', 'predicted': 0.365377277135849, 'actual': 0.747}
+{'titleA': 'Seafood', 'titleB': 'Food', 'predicted': 0.47538256645202637, 'actual': 0.834}
+{'titleA': 'Seafood', 'titleB': 'Lobster', 'predicted': 0.49720367789268494, 'actual': 0.8699999999999999}
+{'titleA': 'Lobster', 'titleB': 'Food', 'predicted': 0.3856256604194641, 'actual': 0.7809999999999999}
+{'titleA': 'Lobster', 'titleB': 'Wine', 'predicted': 0.2333872765302658, 'actual': 0.5700000000000001}
+{'titleA': 'Food', 'titleB': 'Cooking', 'predicted': 0.2855268120765686, 'actual': 0.622}
+{'titleA': 'Video', 'titleB': 'Archive', 'predicted': 0.1868356317281723, 'actual': 0.634}
+{'titleA': 'Telephone line', 'titleB': 'Insurance', 'predicted': 0.07898522913455963, 'actual': 0.269}
+{'titleA': 'Day', 'titleB': 'Summer', 'predicted': 0.3002103269100189, 'actual': 0.394}
+{'titleA': 'Summer', 'titleB': 'Drought', 'predicted': 0.2654716670513153, 'actual': 0.716}
+{'titleA': 'Summer', 'titleB': 'Nature', 'predicted': 0.3430153727531433, 'actual': 0.563}
+{'titleA': 'Nature', 'titleB': 'Natural environment', 'predicted': 0.4879789352416992, 'actual': 0.8310000000000001}
+{'titleA': 'Natural environment', 'titleB': 'Ecology', 'predicted': 0.4495435357093811, 'actual': 0.881}
+{'titleA': 'Man', 'titleB': 'Woman', 'predicted': 0.36081063747406006, 'actual': 0.8300000000000001}
+{'titleA': 'Man', 'titleB': 'Governor', 'predicted': 0.023361017927527428, 'actual': 0.525}
+{'titleA': 'Soap opera', 'titleB': 'Opera', 'predicted': 0.2945370376110077, 'actual': 0.794}
+{'titleA': 'Opera', 'titleB': 'Performance', 'predicted': 0.40807250142097473, 'actual': 0.688}
+{'titleA': 'Attention', 'titleB': 'Personal life', 'predicted': 0.2829058766365051, 'actual': 0.40599999999999997}
+{'titleA': 'Television', 'titleB': 'Film', 'predicted': 0.2819019556045532, 'actual': 0.772}
+{'titleA': 'Morality', 'titleB': 'Marriage', 'predicted': 0.21623699367046356, 'actual': 0.369}
+{'titleA': 'Mexico', 'titleB': 'Brazil', 'predicted': 0.5105539560317993, 'actual': 0.744}
+{'titleA': 'Social change', 'titleB': 'Attitude (psychology)', 'predicted': 0.2443457394838333, 'actual': 0.544}
+{'titleA': 'Family', 'titleB': 'Planning', 'predicted': 0.2119266241788864, 'actual': 0.625}
+{'titleA': 'Country', 'titleB': 'Citizenship', 'predicted': 0.2700132727622986, 'actual': 0.731}
+{'titleA': 'Planet', 'titleB': 'People', 'predicted': 0.15666863322257996, 'actual': 0.575}
+{'titleA': 'Music', 'titleB': 'Project', 'predicted': 0.17587600648403168, 'actual': 0.363}
+{'titleA': 'Glass', 'titleB': 'Metal', 'predicted': 0.41314569115638733, 'actual': 0.5559999999999999}
+{'titleA': 'Aluminium', 'titleB': 'Metal', 'predicted': 0.5296897888183594, 'actual': 0.783}
+{'titleA': 'Rock music', 'titleB': 'Jazz', 'predicted': 0.4870680570602417, 'actual': 0.759}
+{'titleA': 'Museum', 'titleB': 'Theater (structure)', 'predicted': 0.27865511178970337, 'actual': 0.7190000000000001}
+{'titleA': 'Observation', 'titleB': 'Architecture', 'predicted': 0.19951851665973663, 'actual': 0.438}
+{'titleA': 'Space', 'titleB': 'World', 'predicted': 0.20264647901058197, 'actual': 0.653}
+{'titleA': 'Rain', 'titleB': 'Thunderstorm', 'predicted': 0.46667298674583435, 'actual': 0.631}
+{'titleA': 'Rain', 'titleB': 'Flood', 'predicted': 0.3601551055908203, 'actual': 0.603}
+{'titleA': 'Disaster', 'titleB': 'Area', 'predicted': 0.1512567102909088, 'actual': 0.625}
+{'titleA': 'Governor', 'titleB': 'Office', 'predicted': 0.04180228337645531, 'actual': 0.634}
+es :
+{'titleA': 'Love', 'titleB': 'Sexual intercourse', 'predicted': 0.34987178444862366, 'actual': 0.6769999999999999}
+{'titleA': 'Tiger', 'titleB': 'Cat', 'predicted': 0.41825157403945923, 'actual': 0.735}
+{'titleA': 'Tiger', 'titleB': 'Tiger', 'predicted': 1.0, 'actual': 1.0}
+{'titleA': 'Book', 'titleB': 'Paper', 'predicted': 0.33806246519088745, 'actual': 0.746}
+{'titleA': 'Computer', 'titleB': 'Internet', 'predicted': 0.3347463309764862, 'actual': 0.758}
+{'titleA': 'Television', 'titleB': 'Radio broadcasting', 'predicted': 0.39243099093437195, 'actual': 0.6769999999999999}
+{'titleA': 'Mass media', 'titleB': 'Radio broadcasting', 'predicted': 0.3787803053855896, 'actual': 0.742}
+{'titleA': 'Bread', 'titleB': 'Butter', 'predicted': 0.4177621603012085, 'actual': 0.619}
+{'titleA': 'Cucumber', 'titleB': 'Potato', 'predicted': 0.43489935994148254, 'actual': 0.592}
+{'titleA': 'Professor', 'titleB': 'Doctorate', 'predicted': 0.4748426377773285, 'actual': 0.662}
+{'titleA': 'Intelligence', 'titleB': 'Stupidity', 'predicted': 0.2685566246509552, 'actual': 0.581}
+{'titleA': 'Book', 'titleB': 'Library', 'predicted': 0.41888120770454407, 'actual': 0.746}
+{'titleA': 'Bank', 'titleB': 'Money', 'predicted': 0.390809029340744, 'actual': 0.8119999999999999}
+{'titleA': 'Wood', 'titleB': 'Forest', 'predicted': 0.3761671185493469, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Cash', 'predicted': 0.560863733291626, 'actual': 0.915}
+{'titleA': 'Professor', 'titleB': 'Cucumber', 'predicted': 0.12559495866298676, 'actual': 0.031}
+{'titleA': 'King', 'titleB': 'Cabbage', 'predicted': 0.14600734412670135, 'actual': 0.023}
+{'titleA': 'King', 'titleB': 'Queen regnant', 'predicted': 0.48934730887413025, 'actual': 0.858}
+{'titleA': 'King (chess)', 'titleB': 'Rook (chess)', 'predicted': 0.5921358466148376, 'actual': 0.592}
+{'titleA': 'Bishop', 'titleB': 'Rabbi', 'predicted': 0.36450254917144775, 'actual': 0.669}
+{'titleA': 'Jerusalem', 'titleB': 'Israel', 'predicted': 0.5001887083053589, 'actual': 0.8460000000000001}
+{'titleA': 'Diego Maradona', 'titleB': 'Association football', 'predicted': 0.2008417248725891, 'actual': 0.8619999999999999}
+{'titleA': 'Association football', 'titleB': 'Association football', 'predicted': 1.0, 'actual': 0.9029999999999999}
+{'titleA': 'American football', 'titleB': 'Basketball', 'predicted': 0.5656765103340149, 'actual': 0.6809999999999999}
+{'titleA': 'Association football', 'titleB': 'Tennis', 'predicted': 0.32785752415657043, 'actual': 0.663}
+{'titleA': 'Yasser Arafat', 'titleB': 'Peace', 'predicted': 0.20164012908935547, 'actual': 0.673}
+{'titleA': 'Yasser Arafat', 'titleB': 'Terrorism', 'predicted': 0.1435093879699707, 'actual': 0.765}
+{'titleA': 'Yasser Arafat', 'titleB': 'Michael Jackson', 'predicted': 0.16612420976161957, 'actual': 0.25}
+{'titleA': 'Law', 'titleB': 'Lawyer', 'predicted': 0.32471224665641785, 'actual': 0.8380000000000001}
+{'titleA': 'Film', 'titleB': 'Celebrity', 'predicted': 0.1890242099761963, 'actual': 0.738}
+{'titleA': 'Film', 'titleB': 'Popcorn', 'predicted': 0.23373781144618988, 'actual': 0.619}
+{'titleA': 'Film', 'titleB': 'Film criticism', 'predicted': 0.397646963596344, 'actual': 0.673}
+{'titleA': 'Film', 'titleB': 'Movie theater', 'predicted': 0.3560968339443207, 'actual': 0.792}
+{'titleA': 'Physics', 'titleB': 'Proton', 'predicted': 0.3956162631511688, 'actual': 0.8119999999999999}
+{'titleA': 'Physics', 'titleB': 'Chemistry', 'predicted': 0.5065122842788696, 'actual': 0.735}
+{'titleA': 'Space', 'titleB': 'Chemistry', 'predicted': 0.3869122862815857, 'actual': 0.488}
+{'titleA': 'Alcohol', 'titleB': 'Chemistry', 'predicted': 0.29775628447532654, 'actual': 0.554}
+{'titleA': 'Vodka', 'titleB': 'Gin', 'predicted': 0.5366402268409729, 'actual': 0.8460000000000001}
+{'titleA': 'Vodka', 'titleB': 'Brandy', 'predicted': 0.47616052627563477, 'actual': 0.8130000000000001}
+{'titleA': 'Drink', 'titleB': 'Ear', 'predicted': 0.21826940774917603, 'actual': 0.131}
+{'titleA': 'Drink', 'titleB': 'Mouth', 'predicted': 0.26181963086128235, 'actual': 0.596}
+{'titleA': 'Drinking', 'titleB': 'Eating', 'predicted': 0.323031485080719, 'actual': 0.687}
+{'titleA': 'Infant', 'titleB': 'Mother', 'predicted': 0.13886943459510803, 'actual': 0.7849999999999999}
+{'titleA': 'Drink', 'titleB': 'Mother', 'predicted': 0.2111966609954834, 'actual': 0.265}
+{'titleA': 'Gemstone', 'titleB': 'Gemstone', 'predicted': 1.0, 'actual': 0.8960000000000001}
+{'titleA': 'Coast', 'titleB': 'Shore', 'predicted': 0.34906384348869324, 'actual': 0.9099999999999999}
+{'titleA': 'Magician (fantasy)', 'titleB': 'Magician (fantasy)', 'predicted': 1.0, 'actual': 0.9019999999999999}
+{'titleA': 'Noon', 'titleB': 'Noon', 'predicted': 1.0, 'actual': 0.9289999999999999}
+{'titleA': 'Food', 'titleB': 'Fruit', 'predicted': 0.2933245301246643, 'actual': 0.752}
+{'titleA': 'Bird', 'titleB': 'Crane (bird)', 'predicted': 0.390836238861084, 'actual': 0.738}
+{'titleA': 'Tool', 'titleB': 'Tool', 'predicted': 1.0, 'actual': 0.646}
+{'titleA': 'Monk', 'titleB': 'Monk', 'predicted': 1.0, 'actual': 0.627}
+{'titleA': 'Crane (machine)', 'titleB': 'Tool', 'predicted': 0.31275030970573425, 'actual': 0.269}
+{'titleA': 'Monk', 'titleB': 'Oracle', 'predicted': 0.23409070074558258, 'actual': 0.5}
+{'titleA': 'Coast', 'titleB': 'Hill', 'predicted': 0.37997370958328247, 'actual': 0.438}
+{'titleA': 'Monk', 'titleB': 'Slavery', 'predicted': 0.20476630330085754, 'actual': 0.092}
+{'titleA': 'Coast', 'titleB': 'Forest', 'predicted': 0.2659015357494354, 'actual': 0.315}
+{'titleA': 'Chord (geometry)', 'titleB': 'Smile', 'predicted': 0.13558530807495117, 'actual': 0.054000000000000006}
+{'titleA': 'Glass', 'titleB': 'Magic (illusion)', 'predicted': 0.24394221603870392, 'actual': 0.20800000000000002}
+{'titleA': 'Noon', 'titleB': 'Twine', 'predicted': 0.09822981059551239, 'actual': 0.054000000000000006}
+{'titleA': 'Money', 'titleB': 'Dollar', 'predicted': 0.3337322473526001, 'actual': 0.842}
+{'titleA': 'Money', 'titleB': 'Cash', 'predicted': 0.560863733291626, 'actual': 0.908}
+{'titleA': 'Money', 'titleB': 'Currency', 'predicted': 0.5058004856109619, 'actual': 0.9039999999999999}
+{'titleA': 'Money', 'titleB': 'Property', 'predicted': 0.27920499444007874, 'actual': 0.757}
+{'titleA': 'Money', 'titleB': 'Possession (law)', 'predicted': 0.30750200152397156, 'actual': 0.729}
+{'titleA': 'Money', 'titleB': 'Bank', 'predicted': 0.390809029340744, 'actual': 0.85}
+{'titleA': 'Money', 'titleB': 'Deposit account', 'predicted': 0.4136752784252167, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Money laundering', 'predicted': 0.36526161432266235, 'actual': 0.5650000000000001}
+{'titleA': 'Money', 'titleB': 'Surgery', 'predicted': 0.22722642123699188, 'actual': 0.331}
+{'titleA': 'Tiger', 'titleB': 'Jaguar', 'predicted': 0.4576963782310486, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Felidae', 'predicted': 0.4411756992340088, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Carnivore', 'predicted': 0.3278038799762726, 'actual': 0.708}
+{'titleA': 'Tiger', 'titleB': 'Mammal', 'predicted': 0.3779964745044708, 'actual': 0.6849999999999999}
+{'titleA': 'Tiger', 'titleB': 'Animal', 'predicted': 0.2677924633026123, 'actual': 0.7}
+{'titleA': 'Tiger', 'titleB': 'Organism', 'predicted': 0.2594861090183258, 'actual': 0.477}
+{'titleA': 'Tiger', 'titleB': 'Fauna', 'predicted': 0.256838858127594, 'actual': 0.562}
+{'titleA': 'Tiger', 'titleB': 'Zoo', 'predicted': 0.21933513879776, 'actual': 0.587}
+{'titleA': 'Psychology', 'titleB': 'Psychiatry', 'predicted': 0.4512321949005127, 'actual': 0.808}
+{'titleA': 'Psychology', 'titleB': 'Anxiety', 'predicted': 0.34144794940948486, 'actual': 0.7}
+{'titleA': 'Psychology', 'titleB': 'Fear', 'predicted': 0.33788660168647766, 'actual': 0.6849999999999999}
+{'titleA': 'Psychology', 'titleB': 'Major depressive disorder', 'predicted': 0.3244118392467499, 'actual': 0.742}
+{'titleA': 'Psychology', 'titleB': 'Clinic', 'predicted': 0.39083629846572876, 'actual': 0.658}
+{'titleA': 'Psychology', 'titleB': 'Physician', 'predicted': 0.21574240922927856, 'actual': 0.642}
+{'titleA': 'Psychology', 'titleB': 'Sigmund Freud', 'predicted': 0.4063054621219635, 'actual': 0.8210000000000001}
+{'titleA': 'Psychology', 'titleB': 'Mind', 'predicted': 0.41955459117889404, 'actual': 0.769}
+{'titleA': 'Psychology', 'titleB': 'Health', 'predicted': 0.3702978193759918, 'actual': 0.7230000000000001}
+{'titleA': 'Psychology', 'titleB': 'Science', 'predicted': 0.4043552577495575, 'actual': 0.671}
+{'titleA': 'Psychology', 'titleB': 'Cognition', 'predicted': 0.49014973640441895, 'actual': 0.748}
+{'titleA': 'Planet', 'titleB': 'Star', 'predicted': 0.3939444422721863, 'actual': 0.845}
+{'titleA': 'Planet', 'titleB': 'Constellation', 'predicted': 0.38555270433425903, 'actual': 0.806}
+{'titleA': 'Planet', 'titleB': 'Natural satellite', 'predicted': 0.4797935485839844, 'actual': 0.808}
+{'titleA': 'Planet', 'titleB': 'Sun', 'predicted': 0.35316669940948486, 'actual': 0.8019999999999999}
+{'titleA': 'Planet', 'titleB': 'Galaxy', 'predicted': 0.4177437722682953, 'actual': 0.8109999999999999}
+{'titleA': 'Planet', 'titleB': 'Outer space', 'predicted': 0.3175922930240631, 'actual': 0.792}
+{'titleA': 'Planet', 'titleB': 'Astronomer', 'predicted': 0.3241991400718689, 'actual': 0.794}
+{'titleA': 'Precedent', 'titleB': 'Information', 'predicted': 0.2268500179052353, 'actual': 0.385}
+{'titleA': 'Precedent', 'titleB': 'Cognition', 'predicted': 0.22605563700199127, 'actual': 0.281}
+{'titleA': 'Precedent', 'titleB': 'Law', 'predicted': 0.3503987193107605, 'actual': 0.665}
+{'titleA': 'Precedent', 'titleB': 'Collecting', 'predicted': 0.05898335576057434, 'actual': 0.25}
+{'titleA': 'Jaguar', 'titleB': 'Cat', 'predicted': 0.40109729766845703, 'actual': 0.742}
+{'titleA': 'Energy', 'titleB': 'Secretary', 'predicted': 0.1380917727947235, 'actual': 0.181}
+{'titleA': 'Minister (government)', 'titleB': 'Senate', 'predicted': 0.33938729763031006, 'actual': 0.506}
+{'titleA': 'Energy', 'titleB': 'Laboratory', 'predicted': 0.20105575025081635, 'actual': 0.509}
+{'titleA': 'Computer', 'titleB': 'Laboratory', 'predicted': 0.2153410017490387, 'actual': 0.678}
+{'titleA': 'Weapon', 'titleB': 'Secrecy', 'predicted': 0.17466990649700165, 'actual': 0.606}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Fingerprint', 'predicted': 0.16324689984321594, 'actual': 0.6940000000000001}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Criminal procedure', 'predicted': 0.13560736179351807, 'actual': 0.8310000000000001}
+{'titleA': 'Mars', 'titleB': 'Water', 'predicted': 0.4087197780609131, 'actual': 0.294}
+{'titleA': 'Mars', 'titleB': 'Scientist', 'predicted': 0.08824476599693298, 'actual': 0.563}
+{'titleA': 'News', 'titleB': 'Report', 'predicted': 0.45986729860305786, 'actual': 0.8160000000000001}
+{'titleA': 'Canyon', 'titleB': 'Landscape', 'predicted': 0.20858706533908844, 'actual': 0.753}
+{'titleA': 'Discovery (observation)', 'titleB': 'Space', 'predicted': 0.29784706234931946, 'actual': 0.634}
+{'titleA': 'Water', 'titleB': 'Soil mechanics', 'predicted': 0.23832561075687408, 'actual': 0.6559999999999999}
+{'titleA': 'Sign', 'titleB': 'Recess (break)', 'predicted': 0.14597275853157043, 'actual': 0.238}
+{'titleA': 'Wednesday', 'titleB': 'News', 'predicted': 0.18677598237991333, 'actual': 0.22200000000000003}
+{'titleA': 'Computer', 'titleB': 'News', 'predicted': 0.312913715839386, 'actual': 0.44699999999999995}
+{'titleA': 'Atmosphere', 'titleB': 'Landscape', 'predicted': 0.1623682826757431, 'actual': 0.369}
+{'titleA': 'War', 'titleB': 'Soldier', 'predicted': 0.28855714201927185, 'actual': 0.8130000000000001}
+{'titleA': 'World record', 'titleB': 'Number', 'predicted': 0.17942999303340912, 'actual': 0.631}
+{'titleA': 'Skin', 'titleB': 'Eye', 'predicted': 0.4598851501941681, 'actual': 0.622}
+{'titleA': 'Japanese people', 'titleB': 'United States', 'predicted': 0.1327933818101883, 'actual': 0.65}
+{'titleA': 'Theatre', 'titleB': 'History', 'predicted': 0.2597354054450989, 'actual': 0.391}
+{'titleA': 'Prejudice', 'titleB': 'Recognition', 'predicted': 0.24644693732261658, 'actual': 0.3}
+{'titleA': 'Minister (government)', 'titleB': 'Political party', 'predicted': 0.2964042127132416, 'actual': 0.663}
+{'titleA': 'Minority group', 'titleB': 'Peace', 'predicted': 0.22021447122097015, 'actual': 0.369}
+{'titleA': 'Government', 'titleB': 'Crisis', 'predicted': 0.16220404207706451, 'actual': 0.6559999999999999}
+{'titleA': 'Military deployment', 'titleB': 'Withdrawal (military)', 'predicted': 0.38634780049324036, 'actual': 0.588}
+{'titleA': 'Energy industry', 'titleB': 'Crisis', 'predicted': 0.20804858207702637, 'actual': 0.5940000000000001}
+{'titleA': 'Announcer', 'titleB': 'News', 'predicted': 0.3031575381755829, 'actual': 0.756}
+{'titleA': 'Announcer', 'titleB': 'Energy', 'predicted': 0.24180801212787628, 'actual': 0.275}
+{'titleA': 'Stroke', 'titleB': 'Hospital', 'predicted': 0.24331134557724, 'actual': 0.7030000000000001}
+{'titleA': 'Disability', 'titleB': 'Death', 'predicted': 0.25150033831596375, 'actual': 0.5469999999999999}
+{'titleA': 'Victimology', 'titleB': 'Emergency', 'predicted': 0.18705055117607117, 'actual': 0.647}
+{'titleA': 'Medication', 'titleB': 'Healing', 'predicted': 0.34917980432510376, 'actual': 0.791}
+{'titleA': 'Reason', 'titleB': 'Hypertension', 'predicted': 0.21220701932907104, 'actual': 0.231}
+{'titleA': 'Harvard University', 'titleB': 'Yale University', 'predicted': 0.4752303957939148, 'actual': 0.8130000000000001}
+{'titleA': 'Hospital', 'titleB': 'Infrastructure', 'predicted': 0.2635992765426636, 'actual': 0.46299999999999997}
+{'titleA': 'Lawyer', 'titleB': 'Evidence (law)', 'predicted': 0.3154377341270447, 'actual': 0.669}
+{'titleA': 'Life', 'titleB': 'Death', 'predicted': 0.3896084129810333, 'actual': 0.788}
+{'titleA': 'Governor', 'titleB': 'Interview', 'predicted': 0.16791631281375885, 'actual': 0.325}
+{'titleA': 'OPEC', 'titleB': 'Country', 'predicted': 0.16059648990631104, 'actual': 0.563}
+{'titleA': 'Peace', 'titleB': 'Atmosphere', 'predicted': 0.1620771437883377, 'actual': 0.369}
+{'titleA': 'Peace', 'titleB': 'Insurance', 'predicted': 0.14073815941810608, 'actual': 0.294}
+{'titleA': 'Competition (economics)', 'titleB': 'Price', 'predicted': 0.4524689316749573, 'actual': 0.644}
+{'titleA': 'Grocery store', 'titleB': 'Money', 'predicted': 0.296548068523407, 'actual': 0.5940000000000001}
+{'titleA': 'Month', 'titleB': 'Hotel', 'predicted': 0.10402204841375351, 'actual': 0.181}
+{'titleA': 'Street', 'titleB': 'Avenue (landscape)', 'predicted': 0.38852283358573914, 'actual': 0.8880000000000001}
+{'titleA': 'Street', 'titleB': 'City block', 'predicted': 0.41984403133392334, 'actual': 0.688}
+{'titleA': 'Street', 'titleB': 'Child', 'predicted': 0.27338844537734985, 'actual': 0.49400000000000005}
+{'titleA': 'Listed building', 'titleB': 'Distance', 'predicted': 0.14829286932945251, 'actual': 0.256}
+{'titleA': 'Cellular network', 'titleB': 'Telephone', 'predicted': 0.3594774901866913, 'actual': 0.7809999999999999}
+{'titleA': 'Mass media', 'titleB': 'Trade', 'predicted': 0.22286514937877655, 'actual': 0.388}
+{'titleA': 'Dividend', 'titleB': 'Payment', 'predicted': 0.2926928699016571, 'actual': 0.763}
+{'titleA': 'Division (mathematics)', 'titleB': 'Calculation', 'predicted': 0.33215802907943726, 'actual': 0.648}
+{'titleA': 'OPEC', 'titleB': 'Oil', 'predicted': 0.19580669701099396, 'actual': 0.859}
+{'titleA': 'Dollar', 'titleB': 'Japanese yen', 'predicted': 0.3601168692111969, 'actual': 0.778}
+{'titleA': 'Dollar', 'titleB': 'Dollar', 'predicted': 1.0, 'actual': 0.922}
+{'titleA': 'Computer network', 'titleB': 'Computer hardware', 'predicted': 0.5095682144165039, 'actual': 0.8310000000000001}
+{'titleA': 'Telephone', 'titleB': 'Tool', 'predicted': 0.2436198741197586, 'actual': 0.713}
+{'titleA': 'Tool', 'titleB': 'Manufacturing', 'predicted': 0.3774590790271759, 'actual': 0.591}
+{'titleA': 'Liquid', 'titleB': 'Water', 'predicted': 0.3866603374481201, 'actual': 0.7889999999999999}
+{'titleA': 'Baseball', 'titleB': 'Season (sports)', 'predicted': 0.17733052372932434, 'actual': 0.597}
+{'titleA': 'Game', 'titleB': 'Team', 'predicted': 0.20989570021629333, 'actual': 0.769}
+{'titleA': 'Seafood', 'titleB': 'Sea', 'predicted': 0.4098111391067505, 'actual': 0.747}
+{'titleA': 'Seafood', 'titleB': 'Food', 'predicted': 0.34133216738700867, 'actual': 0.834}
+{'titleA': 'Seafood', 'titleB': 'Lobster', 'predicted': 0.27909335494041443, 'actual': 0.8699999999999999}
+{'titleA': 'Lobster', 'titleB': 'Food', 'predicted': 0.2348250299692154, 'actual': 0.7809999999999999}
+{'titleA': 'Lobster', 'titleB': 'Wine', 'predicted': 0.2019796222448349, 'actual': 0.5700000000000001}
+{'titleA': 'Food', 'titleB': 'Cooking', 'predicted': 0.43074822425842285, 'actual': 0.622}
+{'titleA': 'Video', 'titleB': 'Archive', 'predicted': 0.15752805769443512, 'actual': 0.634}
+{'titleA': 'Telephone line', 'titleB': 'Insurance', 'predicted': 0.1252969205379486, 'actual': 0.269}
+{'titleA': 'Day', 'titleB': 'Summer', 'predicted': 0.21251672506332397, 'actual': 0.394}
+{'titleA': 'Summer', 'titleB': 'Drought', 'predicted': 0.29322946071624756, 'actual': 0.716}
+{'titleA': 'Summer', 'titleB': 'Nature', 'predicted': 0.23348279297351837, 'actual': 0.563}
+{'titleA': 'Nature', 'titleB': 'Natural environment', 'predicted': 0.5604276657104492, 'actual': 0.8310000000000001}
+{'titleA': 'Natural environment', 'titleB': 'Ecology', 'predicted': 0.5566185116767883, 'actual': 0.881}
+{'titleA': 'Man', 'titleB': 'Woman', 'predicted': 0.38212254643440247, 'actual': 0.8300000000000001}
+{'titleA': 'Man', 'titleB': 'Governor', 'predicted': 0.19359812140464783, 'actual': 0.525}
+{'titleA': 'Murder', 'titleB': 'Manslaughter', 'predicted': 0.4072309732437134, 'actual': 0.853}
+{'titleA': 'Soap opera', 'titleB': 'Opera', 'predicted': 0.30887049436569214, 'actual': 0.794}
+{'titleA': 'Opera', 'titleB': 'Performance', 'predicted': 0.23591002821922302, 'actual': 0.688}
+{'titleA': 'Manufacturing', 'titleB': 'Crew', 'predicted': 0.15773311257362366, 'actual': 0.625}
+{'titleA': 'Television', 'titleB': 'Film', 'predicted': 0.34208109974861145, 'actual': 0.772}
+{'titleA': 'Morality', 'titleB': 'Marriage', 'predicted': 0.4297393560409546, 'actual': 0.369}
+{'titleA': 'Mexico', 'titleB': 'Brazil', 'predicted': 0.43739038705825806, 'actual': 0.744}
+{'titleA': 'Gender', 'titleB': 'Equality', 'predicted': 0.239867702126503, 'actual': 0.641}
+{'titleA': 'Social change', 'titleB': 'Attitude (psychology)', 'predicted': 0.39391544461250305, 'actual': 0.544}
+{'titleA': 'Family', 'titleB': 'Planning', 'predicted': 0.24358589947223663, 'actual': 0.625}
+{'titleA': 'Minister (Christianity)', 'titleB': 'Culture', 'predicted': 0.17730794847011566, 'actual': 0.46900000000000003}
+{'titleA': 'Country', 'titleB': 'Citizenship', 'predicted': 0.36695533990859985, 'actual': 0.731}
+{'titleA': 'Planet', 'titleB': 'People', 'predicted': 0.24318760633468628, 'actual': 0.575}
+{'titleA': 'Experience', 'titleB': 'Music', 'predicted': 0.21939419209957123, 'actual': 0.34700000000000003}
+{'titleA': 'Music', 'titleB': 'Project', 'predicted': 0.24895067512989044, 'actual': 0.363}
+{'titleA': 'Glass', 'titleB': 'Metal', 'predicted': 0.5322743058204651, 'actual': 0.5559999999999999}
+{'titleA': 'Aluminium', 'titleB': 'Metal', 'predicted': 0.46090954542160034, 'actual': 0.783}
+{'titleA': 'Probability', 'titleB': 'Credibility', 'predicted': 0.22553883492946625, 'actual': 0.388}
+{'titleA': 'Concert', 'titleB': 'Virtuoso', 'predicted': 0.35748225450515747, 'actual': 0.6809999999999999}
+{'titleA': 'Rock music', 'titleB': 'Jazz', 'predicted': 0.5441293120384216, 'actual': 0.759}
+{'titleA': 'Museum', 'titleB': 'Theater (structure)', 'predicted': 0.2634214460849762, 'actual': 0.7190000000000001}
+{'titleA': 'Observation', 'titleB': 'Architecture', 'predicted': 0.258955180644989, 'actual': 0.438}
+{'titleA': 'Space', 'titleB': 'World', 'predicted': 0.3958910405635834, 'actual': 0.653}
+{'titleA': 'Rain', 'titleB': 'Thunderstorm', 'predicted': 0.33888277411460876, 'actual': 0.631}
+{'titleA': 'Rain', 'titleB': 'Flood', 'predicted': 0.37184080481529236, 'actual': 0.603}
+{'titleA': 'Weather', 'titleB': 'Weather forecasting', 'predicted': 0.33790987730026245, 'actual': 0.834}
+{'titleA': 'Disaster', 'titleB': 'Area', 'predicted': 0.004280978348106146, 'actual': 0.625}
+{'titleA': 'Governor', 'titleB': 'Office', 'predicted': 0.31479158997535706, 'actual': 0.634}
+fr :
+{'titleA': 'Love', 'titleB': 'Sexual intercourse', 'predicted': 0.6659216284751892, 'actual': 0.6769999999999999}
+{'titleA': 'Tiger', 'titleB': 'Cat', 'predicted': 0.3339157998561859, 'actual': 0.735}
+{'titleA': 'Tiger', 'titleB': 'Tiger', 'predicted': 1.0, 'actual': 1.0}
+{'titleA': 'Book', 'titleB': 'Paper', 'predicted': 0.6527783870697021, 'actual': 0.746}
+{'titleA': 'Computer', 'titleB': 'Internet', 'predicted': 0.6134973168373108, 'actual': 0.758}
+{'titleA': 'Drug', 'titleB': 'Abuse', 'predicted': 0.3891445994377136, 'actual': 0.6849999999999999}
+{'titleA': 'Bread', 'titleB': 'Butter', 'predicted': 0.6438709497451782, 'actual': 0.619}
+{'titleA': 'Cucumber', 'titleB': 'Potato', 'predicted': 0.5895194411277771, 'actual': 0.592}
+{'titleA': 'Professor', 'titleB': 'Doctorate', 'predicted': 0.6850368976593018, 'actual': 0.662}
+{'titleA': 'Student', 'titleB': 'Professor', 'predicted': 0.5166358351707458, 'actual': 0.6809999999999999}
+{'titleA': 'Intelligence', 'titleB': 'Student', 'predicted': 0.38666775822639465, 'actual': 0.462}
+{'titleA': 'Intelligence', 'titleB': 'Stupidity', 'predicted': 0.5629187822341919, 'actual': 0.581}
+{'titleA': 'Company', 'titleB': 'Stock', 'predicted': 0.48286670446395874, 'actual': 0.708}
+{'titleA': 'Stock', 'titleB': 'Telephone', 'predicted': 0.36037516593933105, 'actual': 0.162}
+{'titleA': 'Stock', 'titleB': 'Jaguar Cars', 'predicted': 0.2535853981971741, 'actual': 0.092}
+{'titleA': 'Stock', 'titleB': 'Life', 'predicted': 0.22195465862751007, 'actual': 0.373}
+{'titleA': 'Stock', 'titleB': 'Life', 'predicted': 0.22195465862751007, 'actual': 0.092}
+{'titleA': 'Book', 'titleB': 'Library', 'predicted': 0.6161146759986877, 'actual': 0.746}
+{'titleA': 'Bank', 'titleB': 'Money', 'predicted': 0.6536431908607483, 'actual': 0.8119999999999999}
+{'titleA': 'Wood', 'titleB': 'Forest', 'predicted': 0.6748631596565247, 'actual': 0.773}
+{'titleA': 'Professor', 'titleB': 'Cucumber', 'predicted': 0.2865121066570282, 'actual': 0.031}
+{'titleA': 'King', 'titleB': 'Cabbage', 'predicted': 0.23297274112701416, 'actual': 0.023}
+{'titleA': 'King (chess)', 'titleB': 'Rook (chess)', 'predicted': 0.45395591855049133, 'actual': 0.592}
+{'titleA': 'Bishop', 'titleB': 'Rabbi', 'predicted': 0.5796023011207581, 'actual': 0.669}
+{'titleA': 'Jerusalem', 'titleB': 'Israel', 'predicted': 0.7026750445365906, 'actual': 0.8460000000000001}
+{'titleA': 'Fuck', 'titleB': 'Sexual intercourse', 'predicted': 0.5239160060882568, 'actual': 0.944}
+{'titleA': 'Diego Maradona', 'titleB': 'Association football', 'predicted': 0.4483031928539276, 'actual': 0.8619999999999999}
+{'titleA': 'Association football', 'titleB': 'Association football', 'predicted': 1.0, 'actual': 0.9029999999999999}
+{'titleA': 'American football', 'titleB': 'Basketball', 'predicted': 0.7014792561531067, 'actual': 0.6809999999999999}
+{'titleA': 'Association football', 'titleB': 'Tennis', 'predicted': 0.44957906007766724, 'actual': 0.663}
+{'titleA': 'Yasser Arafat', 'titleB': 'Peace', 'predicted': 0.21855901181697845, 'actual': 0.673}
+{'titleA': 'Yasser Arafat', 'titleB': 'Terrorism', 'predicted': 0.33909013867378235, 'actual': 0.765}
+{'titleA': 'Yasser Arafat', 'titleB': 'Michael Jackson', 'predicted': 0.32983994483947754, 'actual': 0.25}
+{'titleA': 'Law', 'titleB': 'Lawyer', 'predicted': 0.4493742287158966, 'actual': 0.8380000000000001}
+{'titleA': 'Film', 'titleB': 'Celebrity', 'predicted': 0.3505053222179413, 'actual': 0.738}
+{'titleA': 'Film', 'titleB': 'Popcorn', 'predicted': 0.3805044889450073, 'actual': 0.619}
+{'titleA': 'Film', 'titleB': 'Movie theater', 'predicted': 0.48322728276252747, 'actual': 0.792}
+{'titleA': 'Physics', 'titleB': 'Proton', 'predicted': 0.5125319957733154, 'actual': 0.8119999999999999}
+{'titleA': 'Physics', 'titleB': 'Chemistry', 'predicted': 0.7479130625724792, 'actual': 0.735}
+{'titleA': 'Space', 'titleB': 'Chemistry', 'predicted': 0.5155774354934692, 'actual': 0.488}
+{'titleA': 'Vodka', 'titleB': 'Gin', 'predicted': 0.6164876818656921, 'actual': 0.8460000000000001}
+{'titleA': 'Drink', 'titleB': 'Ear', 'predicted': 0.466535359621048, 'actual': 0.131}
+{'titleA': 'Drink', 'titleB': 'Mouth', 'predicted': 0.5537750124931335, 'actual': 0.596}
+{'titleA': 'Drinking', 'titleB': 'Eating', 'predicted': 0.5762283802032471, 'actual': 0.687}
+{'titleA': 'Infant', 'titleB': 'Mother', 'predicted': 0.5496498942375183, 'actual': 0.7849999999999999}
+{'titleA': 'Drink', 'titleB': 'Mother', 'predicted': 0.40559035539627075, 'actual': 0.265}
+{'titleA': 'Gemstone', 'titleB': 'Gemstone', 'predicted': 1.0, 'actual': 0.8960000000000001}
+{'titleA': 'Travel', 'titleB': 'Voyage', 'predicted': 0.5482335686683655, 'actual': 0.9289999999999999}
+{'titleA': 'Coast', 'titleB': 'Shore', 'predicted': 0.7070848941802979, 'actual': 0.9099999999999999}
+{'titleA': 'Food', 'titleB': 'Fruit', 'predicted': 0.4886102080345154, 'actual': 0.752}
+{'titleA': 'Bird', 'titleB': 'Crane (bird)', 'predicted': 0.502751886844635, 'actual': 0.738}
+{'titleA': 'Tool', 'titleB': 'Tool', 'predicted': 1.0, 'actual': 0.646}
+{'titleA': 'Monk', 'titleB': 'Monk', 'predicted': 1.0, 'actual': 0.627}
+{'titleA': 'Crane (machine)', 'titleB': 'Tool', 'predicted': 0.4478093683719635, 'actual': 0.269}
+{'titleA': 'Coast', 'titleB': 'Hill', 'predicted': 0.46969106793403625, 'actual': 0.438}
+{'titleA': 'Monk', 'titleB': 'Slavery', 'predicted': 0.3760398030281067, 'actual': 0.092}
+{'titleA': 'Coast', 'titleB': 'Forest', 'predicted': 0.4581935703754425, 'actual': 0.315}
+{'titleA': 'Chord (geometry)', 'titleB': 'Smile', 'predicted': 0.3328910768032074, 'actual': 0.054000000000000006}
+{'titleA': 'Glass', 'titleB': 'Magic (illusion)', 'predicted': 0.44080570340156555, 'actual': 0.20800000000000002}
+{'titleA': 'Money', 'titleB': 'Dollar', 'predicted': 0.511840283870697, 'actual': 0.842}
+{'titleA': 'Money', 'titleB': 'Currency', 'predicted': 0.5692318677902222, 'actual': 0.9039999999999999}
+{'titleA': 'Money', 'titleB': 'Property', 'predicted': 0.44685137271881104, 'actual': 0.757}
+{'titleA': 'Money', 'titleB': 'Possession (law)', 'predicted': 0.3234773874282837, 'actual': 0.729}
+{'titleA': 'Money', 'titleB': 'Bank', 'predicted': 0.6536431908607483, 'actual': 0.85}
+{'titleA': 'Money', 'titleB': 'Money laundering', 'predicted': 0.509293794631958, 'actual': 0.5650000000000001}
+{'titleA': 'Money', 'titleB': 'Surgery', 'predicted': 0.3245719373226166, 'actual': 0.331}
+{'titleA': 'Tiger', 'titleB': 'Jaguar', 'predicted': 0.6623872518539429, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Felidae', 'predicted': 0.5203969478607178, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Carnivore', 'predicted': 0.31699198484420776, 'actual': 0.708}
+{'titleA': 'Tiger', 'titleB': 'Mammal', 'predicted': 0.46349599957466125, 'actual': 0.6849999999999999}
+{'titleA': 'Tiger', 'titleB': 'Animal', 'predicted': 0.372727632522583, 'actual': 0.7}
+{'titleA': 'Tiger', 'titleB': 'Organism', 'predicted': 0.291849821805954, 'actual': 0.477}
+{'titleA': 'Tiger', 'titleB': 'Fauna', 'predicted': 0.4575418531894684, 'actual': 0.562}
+{'titleA': 'Tiger', 'titleB': 'Zoo', 'predicted': 0.33908534049987793, 'actual': 0.587}
+{'titleA': 'Psychology', 'titleB': 'Psychiatry', 'predicted': 0.5542700886726379, 'actual': 0.808}
+{'titleA': 'Psychology', 'titleB': 'Anxiety', 'predicted': 0.4987119138240814, 'actual': 0.7}
+{'titleA': 'Psychology', 'titleB': 'Fear', 'predicted': 0.49780741333961487, 'actual': 0.6849999999999999}
+{'titleA': 'Psychology', 'titleB': 'Major depressive disorder', 'predicted': 0.6265308260917664, 'actual': 0.742}
+{'titleA': 'Psychology', 'titleB': 'Physician', 'predicted': 0.3911326825618744, 'actual': 0.642}
+{'titleA': 'Psychology', 'titleB': 'Sigmund Freud', 'predicted': 0.5807083249092102, 'actual': 0.8210000000000001}
+{'titleA': 'Psychology', 'titleB': 'Mind', 'predicted': 0.5774872303009033, 'actual': 0.769}
+{'titleA': 'Psychology', 'titleB': 'Health', 'predicted': 0.5040815472602844, 'actual': 0.7230000000000001}
+{'titleA': 'Psychology', 'titleB': 'Science', 'predicted': 0.6081433892250061, 'actual': 0.671}
+{'titleA': 'Psychology', 'titleB': 'Cognition', 'predicted': 0.7019170522689819, 'actual': 0.748}
+{'titleA': 'Planet', 'titleB': 'Star', 'predicted': 0.78542160987854, 'actual': 0.845}
+{'titleA': 'Planet', 'titleB': 'Constellation', 'predicted': 0.6417071223258972, 'actual': 0.806}
+{'titleA': 'Planet', 'titleB': 'Natural satellite', 'predicted': 0.7844404578208923, 'actual': 0.808}
+{'titleA': 'Planet', 'titleB': 'Sun', 'predicted': 0.7966785430908203, 'actual': 0.8019999999999999}
+{'titleA': 'Planet', 'titleB': 'Galaxy', 'predicted': 0.7914791107177734, 'actual': 0.8109999999999999}
+{'titleA': 'Planet', 'titleB': 'Outer space', 'predicted': 0.5618494153022766, 'actual': 0.792}
+{'titleA': 'Planet', 'titleB': 'Astronomer', 'predicted': 0.45208075642585754, 'actual': 0.794}
+{'titleA': 'Precedent', 'titleB': 'Information', 'predicted': 0.3062494397163391, 'actual': 0.385}
+{'titleA': 'Precedent', 'titleB': 'Cognition', 'predicted': 0.2715570628643036, 'actual': 0.281}
+{'titleA': 'Precedent', 'titleB': 'Law', 'predicted': 0.5723095536231995, 'actual': 0.665}
+{'titleA': 'Precedent', 'titleB': 'Collecting', 'predicted': 0.21419037878513336, 'actual': 0.25}
+{'titleA': 'Jaguar', 'titleB': 'Cat', 'predicted': 0.5156072974205017, 'actual': 0.742}
+{'titleA': 'Energy', 'titleB': 'Secretary', 'predicted': 0.3639829754829407, 'actual': 0.181}
+{'titleA': 'Minister (government)', 'titleB': 'Senate', 'predicted': 0.1881633996963501, 'actual': 0.506}
+{'titleA': 'Energy', 'titleB': 'Laboratory', 'predicted': 0.3393611013889313, 'actual': 0.509}
+{'titleA': 'Computer', 'titleB': 'Laboratory', 'predicted': 0.35943594574928284, 'actual': 0.678}
+{'titleA': 'Weapon', 'titleB': 'Secrecy', 'predicted': 0.31380629539489746, 'actual': 0.606}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Fingerprint', 'predicted': 0.37439054250717163, 'actual': 0.6940000000000001}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Criminal procedure', 'predicted': 0.20973925292491913, 'actual': 0.8310000000000001}
+{'titleA': 'Mars', 'titleB': 'Water', 'predicted': 0.5280805230140686, 'actual': 0.294}
+{'titleA': 'Mars', 'titleB': 'Scientist', 'predicted': 0.32575368881225586, 'actual': 0.563}
+{'titleA': 'Canyon', 'titleB': 'Landscape', 'predicted': 0.3589925765991211, 'actual': 0.753}
+{'titleA': 'Discovery (observation)', 'titleB': 'Space', 'predicted': 0.5300887823104858, 'actual': 0.634}
+{'titleA': 'Water', 'titleB': 'Soil mechanics', 'predicted': 0.6010252833366394, 'actual': 0.6559999999999999}
+{'titleA': 'Atmosphere', 'titleB': 'Landscape', 'predicted': 0.438880980014801, 'actual': 0.369}
+{'titleA': 'War', 'titleB': 'Soldier', 'predicted': 0.38034820556640625, 'actual': 0.8130000000000001}
+{'titleA': 'World record', 'titleB': 'Number', 'predicted': 0.2576425075531006, 'actual': 0.631}
+{'titleA': 'Skin', 'titleB': 'Eye', 'predicted': 0.6681458353996277, 'actual': 0.622}
+{'titleA': 'Japanese people', 'titleB': 'United States', 'predicted': 0.4658387005329132, 'actual': 0.65}
+{'titleA': 'Theatre', 'titleB': 'History', 'predicted': 0.49407118558883667, 'actual': 0.391}
+{'titleA': 'Century', 'titleB': 'Year', 'predicted': 0.7473368644714355, 'actual': 0.759}
+{'titleA': 'Century', 'titleB': 'Nation', 'predicted': 0.3736056089401245, 'actual': 0.316}
+{'titleA': 'Delay', 'titleB': 'Racism', 'predicted': 0.1943342238664627, 'actual': 0.119}
+{'titleA': 'Minister (government)', 'titleB': 'Political party', 'predicted': 0.37417668104171753, 'actual': 0.663}
+{'titleA': 'Minority group', 'titleB': 'Peace', 'predicted': 0.3536352515220642, 'actual': 0.369}
+{'titleA': 'Government', 'titleB': 'Crisis', 'predicted': 0.34235358238220215, 'actual': 0.6559999999999999}
+{'titleA': 'Energy industry', 'titleB': 'Crisis', 'predicted': 0.37467437982559204, 'actual': 0.5940000000000001}
+{'titleA': 'Stroke', 'titleB': 'Hospital', 'predicted': 0.6023813486099243, 'actual': 0.7030000000000001}
+{'titleA': 'Disability', 'titleB': 'Death', 'predicted': 0.3397001624107361, 'actual': 0.5469999999999999}
+{'titleA': 'Victimology', 'titleB': 'Emergency', 'predicted': 0.2712363004684448, 'actual': 0.647}
+{'titleA': 'Medication', 'titleB': 'Healing', 'predicted': 0.42978453636169434, 'actual': 0.791}
+{'titleA': 'Reason', 'titleB': 'Hypertension', 'predicted': 0.3866061270236969, 'actual': 0.231}
+{'titleA': 'Harvard University', 'titleB': 'Yale University', 'predicted': 0.7825826406478882, 'actual': 0.8130000000000001}
+{'titleA': 'Hospital', 'titleB': 'Infrastructure', 'predicted': 0.45421668887138367, 'actual': 0.46299999999999997}
+{'titleA': 'Capital punishment', 'titleB': 'Convict', 'predicted': 0.20667286217212677, 'actual': 0.503}
+{'titleA': 'Life', 'titleB': 'Death', 'predicted': 0.5308961868286133, 'actual': 0.788}
+{'titleA': 'Governor', 'titleB': 'Interview', 'predicted': 0.1428922563791275, 'actual': 0.325}
+{'titleA': 'OPEC', 'titleB': 'Country', 'predicted': 0.1163223534822464, 'actual': 0.563}
+{'titleA': 'Peace', 'titleB': 'Atmosphere', 'predicted': 0.2021569460630417, 'actual': 0.369}
+{'titleA': 'Peace', 'titleB': 'Insurance', 'predicted': 0.21754886209964752, 'actual': 0.294}
+{'titleA': 'Competition (economics)', 'titleB': 'Price', 'predicted': 0.5925870537757874, 'actual': 0.644}
+{'titleA': 'Month', 'titleB': 'Hotel', 'predicted': 0.32207217812538147, 'actual': 0.181}
+{'titleA': 'Bed', 'titleB': 'Closet', 'predicted': 0.4702255129814148, 'actual': 0.6719999999999999}
+{'titleA': 'Closet', 'titleB': 'Clothing', 'predicted': 0.3675147593021393, 'actual': 0.8}
+{'titleA': 'Impartiality', 'titleB': 'Interest (emotion)', 'predicted': 0.34669286012649536, 'actual': 0.516}
+{'titleA': 'Street', 'titleB': 'Place', 'predicted': 0.3686155378818512, 'actual': 0.644}
+{'titleA': 'Street', 'titleB': 'Avenue (landscape)', 'predicted': 0.2727331221103668, 'actual': 0.8880000000000001}
+{'titleA': 'Street', 'titleB': 'City block', 'predicted': 0.5469180345535278, 'actual': 0.688}
+{'titleA': 'Street', 'titleB': 'Child', 'predicted': 0.3253610134124756, 'actual': 0.49400000000000005}
+{'titleA': 'Listed building', 'titleB': 'Distance', 'predicted': 0.26430821418762207, 'actual': 0.256}
+{'titleA': 'Cellular network', 'titleB': 'Telephone', 'predicted': 0.6437291502952576, 'actual': 0.7809999999999999}
+{'titleA': 'Mass media', 'titleB': 'Trade', 'predicted': 0.36351287364959717, 'actual': 0.388}
+{'titleA': 'Dividend', 'titleB': 'Payment', 'predicted': 0.4325093626976013, 'actual': 0.763}
+{'titleA': 'Division (mathematics)', 'titleB': 'Calculation', 'predicted': 0.6196222305297852, 'actual': 0.648}
+{'titleA': 'OPEC', 'titleB': 'Oil', 'predicted': 0.13305196166038513, 'actual': 0.859}
+{'titleA': 'Oil', 'titleB': 'Stock', 'predicted': 0.1522807627916336, 'actual': 0.634}
+{'titleA': 'Dollar', 'titleB': 'Japanese yen', 'predicted': 0.5971769094467163, 'actual': 0.778}
+{'titleA': 'Dollar', 'titleB': 'Dollar', 'predicted': 1.0, 'actual': 0.922}
+{'titleA': 'Computer network', 'titleB': 'Computer hardware', 'predicted': 0.6063242554664612, 'actual': 0.8310000000000001}
+{'titleA': 'Telephone', 'titleB': 'Tool', 'predicted': 0.4060221314430237, 'actual': 0.713}
+{'titleA': 'Tool', 'titleB': 'Manufacturing', 'predicted': 0.33992666006088257, 'actual': 0.591}
+{'titleA': 'Liquid', 'titleB': 'Water', 'predicted': 0.4763956069946289, 'actual': 0.7889999999999999}
+{'titleA': 'Baseball', 'titleB': 'Season (sports)', 'predicted': 0.3296540677547455, 'actual': 0.597}
+{'titleA': 'Game', 'titleB': 'Team', 'predicted': 0.36276695132255554, 'actual': 0.769}
+{'titleA': 'Seafood', 'titleB': 'Sea', 'predicted': 0.6132846474647522, 'actual': 0.747}
+{'titleA': 'Seafood', 'titleB': 'Food', 'predicted': 0.49634426832199097, 'actual': 0.834}
+{'titleA': 'Seafood', 'titleB': 'Lobster', 'predicted': 0.6356624364852905, 'actual': 0.8699999999999999}
+{'titleA': 'Lobster', 'titleB': 'Food', 'predicted': 0.5241504907608032, 'actual': 0.7809999999999999}
+{'titleA': 'Lobster', 'titleB': 'Wine', 'predicted': 0.5302693843841553, 'actual': 0.5700000000000001}
+{'titleA': 'Food', 'titleB': 'Cooking', 'predicted': 0.632568359375, 'actual': 0.622}
+{'titleA': 'Video', 'titleB': 'Archive', 'predicted': 0.3957819938659668, 'actual': 0.634}
+{'titleA': 'Telephone line', 'titleB': 'Insurance', 'predicted': 0.2855123281478882, 'actual': 0.269}
+{'titleA': 'Day', 'titleB': 'Summer', 'predicted': 0.49950605630874634, 'actual': 0.394}
+{'titleA': 'Summer', 'titleB': 'Drought', 'predicted': 0.6091443300247192, 'actual': 0.716}
+{'titleA': 'Summer', 'titleB': 'Nature', 'predicted': 0.39116302132606506, 'actual': 0.563}
+{'titleA': 'Day', 'titleB': 'Dawn', 'predicted': 0.5885674953460693, 'actual': 0.753}
+{'titleA': 'Nature', 'titleB': 'Natural environment', 'predicted': 0.6729434132575989, 'actual': 0.8310000000000001}
+{'titleA': 'Natural environment', 'titleB': 'Ecology', 'predicted': 0.5953798294067383, 'actual': 0.881}
+{'titleA': 'Man', 'titleB': 'Woman', 'predicted': 0.697136640548706, 'actual': 0.8300000000000001}
+{'titleA': 'Man', 'titleB': 'Governor', 'predicted': 0.24099308252334595, 'actual': 0.525}
+{'titleA': 'Murder', 'titleB': 'Manslaughter', 'predicted': 0.6871134638786316, 'actual': 0.853}
+{'titleA': 'Soap opera', 'titleB': 'Opera', 'predicted': 0.46569424867630005, 'actual': 0.794}
+{'titleA': 'Manufacturing', 'titleB': 'Crew', 'predicted': 0.39052602648735046, 'actual': 0.625}
+{'titleA': 'Television', 'titleB': 'Film', 'predicted': 0.44749051332473755, 'actual': 0.772}
+{'titleA': 'Morality', 'titleB': 'Marriage', 'predicted': 0.4372072219848633, 'actual': 0.369}
+{'titleA': 'Mexico', 'titleB': 'Brazil', 'predicted': 0.5900002717971802, 'actual': 0.744}
+{'titleA': 'Gender', 'titleB': 'Equality', 'predicted': 0.5649701356887817, 'actual': 0.641}
+{'titleA': 'Social change', 'titleB': 'Attitude (psychology)', 'predicted': 0.5776410698890686, 'actual': 0.544}
+{'titleA': 'Family', 'titleB': 'Planning', 'predicted': 0.2574092447757721, 'actual': 0.625}
+{'titleA': 'Minister (Christianity)', 'titleB': 'Culture', 'predicted': 0.3002648949623108, 'actual': 0.46900000000000003}
+{'titleA': 'Country', 'titleB': 'Citizenship', 'predicted': 0.5171404480934143, 'actual': 0.731}
+{'titleA': 'Planet', 'titleB': 'People', 'predicted': 0.3742498755455017, 'actual': 0.575}
+{'titleA': 'Experience', 'titleB': 'Music', 'predicted': 0.5444332361221313, 'actual': 0.34700000000000003}
+{'titleA': 'Music', 'titleB': 'Project', 'predicted': 0.3697890639305115, 'actual': 0.363}
+{'titleA': 'Glass', 'titleB': 'Metal', 'predicted': 0.7235105037689209, 'actual': 0.5559999999999999}
+{'titleA': 'Aluminium', 'titleB': 'Metal', 'predicted': 0.7018632888793945, 'actual': 0.783}
+{'titleA': 'Probability', 'titleB': 'Credibility', 'predicted': 0.41593265533447266, 'actual': 0.388}
+{'titleA': 'Concert', 'titleB': 'Virtuoso', 'predicted': 0.42616215348243713, 'actual': 0.6809999999999999}
+{'titleA': 'Rock music', 'titleB': 'Jazz', 'predicted': 0.7299579381942749, 'actual': 0.759}
+{'titleA': 'Museum', 'titleB': 'Theater (structure)', 'predicted': 0.48258161544799805, 'actual': 0.7190000000000001}
+{'titleA': 'Observation', 'titleB': 'Architecture', 'predicted': 0.38041621446609497, 'actual': 0.438}
+{'titleA': 'Space', 'titleB': 'World', 'predicted': 0.675887405872345, 'actual': 0.653}
+{'titleA': 'Rain', 'titleB': 'Thunderstorm', 'predicted': 0.7354418039321899, 'actual': 0.631}
+{'titleA': 'Rain', 'titleB': 'Flood', 'predicted': 0.5975345969200134, 'actual': 0.603}
+{'titleA': 'Weather', 'titleB': 'Weather forecasting', 'predicted': 0.6576611995697021, 'actual': 0.834}
+{'titleA': 'Disaster', 'titleB': 'Area', 'predicted': 0.33195751905441284, 'actual': 0.625}
+{'titleA': 'Governor', 'titleB': 'Office', 'predicted': 0.15613919496536255, 'actual': 0.634}
+{'titleA': 'Architecture', 'titleB': 'Century', 'predicted': 0.30587026476860046, 'actual': 0.378}
+ru :
+{'titleA': 'Love', 'titleB': 'Sexual intercourse', 'predicted': 0.41817888617515564, 'actual': 0.6769999999999999}
+{'titleA': 'Tiger', 'titleB': 'Cat', 'predicted': 0.4710475504398346, 'actual': 0.735}
+{'titleA': 'Tiger', 'titleB': 'Tiger', 'predicted': 1.0, 'actual': 1.0}
+{'titleA': 'Book', 'titleB': 'Paper', 'predicted': 0.5575822591781616, 'actual': 0.746}
+{'titleA': 'Computer', 'titleB': 'Internet', 'predicted': 0.4672069847583771, 'actual': 0.758}
+{'titleA': 'Television', 'titleB': 'Radio broadcasting', 'predicted': 0.4781727194786072, 'actual': 0.6769999999999999}
+{'titleA': 'Mass media', 'titleB': 'Radio broadcasting', 'predicted': 0.37519267201423645, 'actual': 0.742}
+{'titleA': 'Bread', 'titleB': 'Butter', 'predicted': 0.46558520197868347, 'actual': 0.619}
+{'titleA': 'Cucumber', 'titleB': 'Potato', 'predicted': 0.555215060710907, 'actual': 0.592}
+{'titleA': 'Student', 'titleB': 'Professor', 'predicted': 0.31905680894851685, 'actual': 0.6809999999999999}
+{'titleA': 'Intelligence', 'titleB': 'Student', 'predicted': 0.32708674669265747, 'actual': 0.462}
+{'titleA': 'Intelligence', 'titleB': 'Stupidity', 'predicted': 0.4153017997741699, 'actual': 0.581}
+{'titleA': 'Book', 'titleB': 'Library', 'predicted': 0.49466970562934875, 'actual': 0.746}
+{'titleA': 'Bank', 'titleB': 'Money', 'predicted': 0.5268904566764832, 'actual': 0.8119999999999999}
+{'titleA': 'Wood', 'titleB': 'Forest', 'predicted': 0.49086734652519226, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Cash', 'predicted': 0.4030625820159912, 'actual': 0.915}
+{'titleA': 'Professor', 'titleB': 'Cucumber', 'predicted': 0.23721018433570862, 'actual': 0.031}
+{'titleA': 'King', 'titleB': 'Cabbage', 'predicted': 0.2735072076320648, 'actual': 0.023}
+{'titleA': 'King', 'titleB': 'Queen regnant', 'predicted': 0.48100611567497253, 'actual': 0.858}
+{'titleA': 'King (chess)', 'titleB': 'Rook (chess)', 'predicted': 0.4484524726867676, 'actual': 0.592}
+{'titleA': 'Bishop', 'titleB': 'Rabbi', 'predicted': 0.46931642293930054, 'actual': 0.669}
+{'titleA': 'Jerusalem', 'titleB': 'Israel', 'predicted': 0.5420158505439758, 'actual': 0.8460000000000001}
+{'titleA': 'Fuck', 'titleB': 'Sexual intercourse', 'predicted': 0.3265947699546814, 'actual': 0.944}
+{'titleA': 'Diego Maradona', 'titleB': 'Association football', 'predicted': 0.30409979820251465, 'actual': 0.8619999999999999}
+{'titleA': 'Association football', 'titleB': 'Association football', 'predicted': 1.0, 'actual': 0.9029999999999999}
+{'titleA': 'American football', 'titleB': 'Basketball', 'predicted': 0.5560702681541443, 'actual': 0.6809999999999999}
+{'titleA': 'Association football', 'titleB': 'Tennis', 'predicted': 0.5321698188781738, 'actual': 0.663}
+{'titleA': 'Yasser Arafat', 'titleB': 'Peace', 'predicted': 0.2393493801355362, 'actual': 0.673}
+{'titleA': 'Yasser Arafat', 'titleB': 'Terrorism', 'predicted': 0.30334001779556274, 'actual': 0.765}
+{'titleA': 'Yasser Arafat', 'titleB': 'Michael Jackson', 'predicted': 0.18978619575500488, 'actual': 0.25}
+{'titleA': 'Law', 'titleB': 'Lawyer', 'predicted': 0.32452601194381714, 'actual': 0.8380000000000001}
+{'titleA': 'Film', 'titleB': 'Celebrity', 'predicted': 0.3219282627105713, 'actual': 0.738}
+{'titleA': 'Film', 'titleB': 'Popcorn', 'predicted': 0.32343247532844543, 'actual': 0.619}
+{'titleA': 'Film', 'titleB': 'Movie theater', 'predicted': 0.5791959166526794, 'actual': 0.792}
+{'titleA': 'Physics', 'titleB': 'Proton', 'predicted': 0.49687138199806213, 'actual': 0.8119999999999999}
+{'titleA': 'Physics', 'titleB': 'Chemistry', 'predicted': 0.6062048077583313, 'actual': 0.735}
+{'titleA': 'Space', 'titleB': 'Chemistry', 'predicted': 0.4235793948173523, 'actual': 0.488}
+{'titleA': 'Vodka', 'titleB': 'Gin', 'predicted': 0.4112628102302551, 'actual': 0.8460000000000001}
+{'titleA': 'Vodka', 'titleB': 'Brandy', 'predicted': 0.4045068621635437, 'actual': 0.8130000000000001}
+{'titleA': 'Drink', 'titleB': 'Ear', 'predicted': 0.31580254435539246, 'actual': 0.131}
+{'titleA': 'Drink', 'titleB': 'Mouth', 'predicted': 0.38362908363342285, 'actual': 0.596}
+{'titleA': 'Drinking', 'titleB': 'Eating', 'predicted': 0.40537717938423157, 'actual': 0.687}
+{'titleA': 'Infant', 'titleB': 'Mother', 'predicted': 0.2477157711982727, 'actual': 0.7849999999999999}
+{'titleA': 'Drink', 'titleB': 'Mother', 'predicted': 0.34209293127059937, 'actual': 0.265}
+{'titleA': 'Gemstone', 'titleB': 'Gemstone', 'predicted': 1.0, 'actual': 0.8960000000000001}
+{'titleA': 'Noon', 'titleB': 'Noon', 'predicted': 1.0, 'actual': 0.9289999999999999}
+{'titleA': 'Food', 'titleB': 'Fruit', 'predicted': 0.4918194115161896, 'actual': 0.752}
+{'titleA': 'Bird', 'titleB': 'Crane (bird)', 'predicted': 0.44215428829193115, 'actual': 0.738}
+{'titleA': 'Tool', 'titleB': 'Tool', 'predicted': 1.0, 'actual': 0.646}
+{'titleA': 'Monk', 'titleB': 'Monk', 'predicted': 1.0, 'actual': 0.627}
+{'titleA': 'Crane (machine)', 'titleB': 'Tool', 'predicted': 0.38096708059310913, 'actual': 0.269}
+{'titleA': 'Monk', 'titleB': 'Oracle', 'predicted': 0.33940109610557556, 'actual': 0.5}
+{'titleA': 'Cemetery', 'titleB': 'Woodland', 'predicted': 0.20738840103149414, 'actual': 0.20800000000000002}
+{'titleA': 'Monk', 'titleB': 'Slavery', 'predicted': 0.2954413592815399, 'actual': 0.092}
+{'titleA': 'Coast', 'titleB': 'Forest', 'predicted': 0.44474467635154724, 'actual': 0.315}
+{'titleA': 'Chord (geometry)', 'titleB': 'Smile', 'predicted': 0.09571006149053574, 'actual': 0.054000000000000006}
+{'titleA': 'Glass', 'titleB': 'Magic (illusion)', 'predicted': 0.19654692709445953, 'actual': 0.20800000000000002}
+{'titleA': 'Noon', 'titleB': 'Twine', 'predicted': 0.16244688630104065, 'actual': 0.054000000000000006}
+{'titleA': 'Money', 'titleB': 'Dollar', 'predicted': 0.35480087995529175, 'actual': 0.842}
+{'titleA': 'Money', 'titleB': 'Cash', 'predicted': 0.4030625820159912, 'actual': 0.908}
+{'titleA': 'Money', 'titleB': 'Currency', 'predicted': 0.5624521374702454, 'actual': 0.9039999999999999}
+{'titleA': 'Money', 'titleB': 'Property', 'predicted': 0.32877108454704285, 'actual': 0.757}
+{'titleA': 'Money', 'titleB': 'Possession (law)', 'predicted': 0.31307345628738403, 'actual': 0.729}
+{'titleA': 'Money', 'titleB': 'Bank', 'predicted': 0.5268904566764832, 'actual': 0.85}
+{'titleA': 'Money', 'titleB': 'Deposit account', 'predicted': 0.34804457426071167, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Money laundering', 'predicted': 0.39255937933921814, 'actual': 0.5650000000000001}
+{'titleA': 'Money', 'titleB': 'Surgery', 'predicted': 0.26877501606941223, 'actual': 0.331}
+{'titleA': 'Tiger', 'titleB': 'Jaguar', 'predicted': 0.5179296731948853, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Felidae', 'predicted': 0.4341646730899811, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Mammal', 'predicted': 0.4870568513870239, 'actual': 0.6849999999999999}
+{'titleA': 'Tiger', 'titleB': 'Animal', 'predicted': 0.3947615623474121, 'actual': 0.7}
+{'titleA': 'Tiger', 'titleB': 'Organism', 'predicted': 0.32485470175743103, 'actual': 0.477}
+{'titleA': 'Tiger', 'titleB': 'Fauna', 'predicted': 0.3378662168979645, 'actual': 0.562}
+{'titleA': 'Tiger', 'titleB': 'Zoo', 'predicted': 0.31742992997169495, 'actual': 0.587}
+{'titleA': 'Psychology', 'titleB': 'Psychiatry', 'predicted': 0.47779807448387146, 'actual': 0.808}
+{'titleA': 'Psychology', 'titleB': 'Anxiety', 'predicted': 0.3553132116794586, 'actual': 0.7}
+{'titleA': 'Psychology', 'titleB': 'Fear', 'predicted': 0.3952750861644745, 'actual': 0.6849999999999999}
+{'titleA': 'Psychology', 'titleB': 'Major depressive disorder', 'predicted': 0.3439485728740692, 'actual': 0.742}
+{'titleA': 'Psychology', 'titleB': 'Clinic', 'predicted': 0.24099186062812805, 'actual': 0.658}
+{'titleA': 'Psychology', 'titleB': 'Physician', 'predicted': 0.3890473544597626, 'actual': 0.642}
+{'titleA': 'Psychology', 'titleB': 'Sigmund Freud', 'predicted': 0.4889037311077118, 'actual': 0.8210000000000001}
+{'titleA': 'Psychology', 'titleB': 'Mind', 'predicted': 0.3944968581199646, 'actual': 0.769}
+{'titleA': 'Psychology', 'titleB': 'Health', 'predicted': 0.5054191946983337, 'actual': 0.7230000000000001}
+{'titleA': 'Psychology', 'titleB': 'Science', 'predicted': 0.5653114914894104, 'actual': 0.671}
+{'titleA': 'Psychology', 'titleB': 'Cognition', 'predicted': 0.5055639743804932, 'actual': 0.748}
+{'titleA': 'Planet', 'titleB': 'Star', 'predicted': 0.5142234563827515, 'actual': 0.845}
+{'titleA': 'Planet', 'titleB': 'Constellation', 'predicted': 0.41673746705055237, 'actual': 0.806}
+{'titleA': 'Planet', 'titleB': 'Natural satellite', 'predicted': 0.40664929151535034, 'actual': 0.808}
+{'titleA': 'Planet', 'titleB': 'Sun', 'predicted': 0.5092992186546326, 'actual': 0.8019999999999999}
+{'titleA': 'Planet', 'titleB': 'Galaxy', 'predicted': 0.5940669178962708, 'actual': 0.8109999999999999}
+{'titleA': 'Planet', 'titleB': 'Outer space', 'predicted': 0.45052069425582886, 'actual': 0.792}
+{'titleA': 'Planet', 'titleB': 'Astronomer', 'predicted': 0.3336890637874603, 'actual': 0.794}
+{'titleA': 'Precedent', 'titleB': 'Information', 'predicted': 0.37095722556114197, 'actual': 0.385}
+{'titleA': 'Precedent', 'titleB': 'Cognition', 'predicted': 0.31758666038513184, 'actual': 0.281}
+{'titleA': 'Precedent', 'titleB': 'Law', 'predicted': 0.5381321310997009, 'actual': 0.665}
+{'titleA': 'Precedent', 'titleB': 'Collecting', 'predicted': 0.23026594519615173, 'actual': 0.25}
+{'titleA': 'Jaguar', 'titleB': 'Cat', 'predicted': 0.3938901424407959, 'actual': 0.742}
+{'titleA': 'Energy', 'titleB': 'Secretary', 'predicted': 0.1934661567211151, 'actual': 0.181}
+{'titleA': 'Minister (government)', 'titleB': 'Senate', 'predicted': 0.3204653561115265, 'actual': 0.506}
+{'titleA': 'Energy', 'titleB': 'Laboratory', 'predicted': 0.2876151502132416, 'actual': 0.509}
+{'titleA': 'Computer', 'titleB': 'Laboratory', 'predicted': 0.34433385729789734, 'actual': 0.678}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Criminal procedure', 'predicted': 0.2534303665161133, 'actual': 0.8310000000000001}
+{'titleA': 'Mars', 'titleB': 'Water', 'predicted': 0.34300076961517334, 'actual': 0.294}
+{'titleA': 'Mars', 'titleB': 'Scientist', 'predicted': 0.1930766999721527, 'actual': 0.563}
+{'titleA': 'News', 'titleB': 'Report', 'predicted': 0.3200310468673706, 'actual': 0.8160000000000001}
+{'titleA': 'Canyon', 'titleB': 'Landscape', 'predicted': 0.2836100161075592, 'actual': 0.753}
+{'titleA': 'Discovery (observation)', 'titleB': 'Space', 'predicted': 0.29595738649368286, 'actual': 0.634}
+{'titleA': 'Water', 'titleB': 'Soil mechanics', 'predicted': 0.4950394630432129, 'actual': 0.6559999999999999}
+{'titleA': 'Wednesday', 'titleB': 'News', 'predicted': 0.24134771525859833, 'actual': 0.22200000000000003}
+{'titleA': 'Computer', 'titleB': 'News', 'predicted': 0.29228475689888, 'actual': 0.44699999999999995}
+{'titleA': 'Atmosphere', 'titleB': 'Landscape', 'predicted': 0.31171438097953796, 'actual': 0.369}
+{'titleA': 'War', 'titleB': 'Soldier', 'predicted': 0.301914781332016, 'actual': 0.8130000000000001}
+{'titleA': 'World record', 'titleB': 'Number', 'predicted': 0.23203057050704956, 'actual': 0.631}
+{'titleA': 'Skin', 'titleB': 'Eye', 'predicted': 0.5247231125831604, 'actual': 0.622}
+{'titleA': 'Japanese people', 'titleB': 'United States', 'predicted': 0.3390514552593231, 'actual': 0.65}
+{'titleA': 'Theatre', 'titleB': 'History', 'predicted': 0.3837549090385437, 'actual': 0.391}
+{'titleA': 'Century', 'titleB': 'Year', 'predicted': 0.3919232487678528, 'actual': 0.759}
+{'titleA': 'Century', 'titleB': 'Nation', 'predicted': 0.2611653208732605, 'actual': 0.316}
+{'titleA': 'Minister (government)', 'titleB': 'Political party', 'predicted': 0.32740241289138794, 'actual': 0.663}
+{'titleA': 'Minority group', 'titleB': 'Peace', 'predicted': 0.3153011202812195, 'actual': 0.369}
+{'titleA': 'Government', 'titleB': 'Crisis', 'predicted': 0.159559428691864, 'actual': 0.6559999999999999}
+{'titleA': 'Military deployment', 'titleB': 'Withdrawal (military)', 'predicted': 0.415217787027359, 'actual': 0.588}
+{'titleA': 'Energy industry', 'titleB': 'Crisis', 'predicted': 0.18656302988529205, 'actual': 0.5940000000000001}
+{'titleA': 'Announcer', 'titleB': 'News', 'predicted': 0.3383159637451172, 'actual': 0.756}
+{'titleA': 'Announcer', 'titleB': 'Energy', 'predicted': 0.19690507650375366, 'actual': 0.275}
+{'titleA': 'Stroke', 'titleB': 'Hospital', 'predicted': 0.26090580224990845, 'actual': 0.7030000000000001}
+{'titleA': 'Disability', 'titleB': 'Death', 'predicted': 0.29315418004989624, 'actual': 0.5469999999999999}
+{'titleA': 'Victimology', 'titleB': 'Emergency', 'predicted': 0.2663048505783081, 'actual': 0.647}
+{'titleA': 'Physician', 'titleB': 'Human resources', 'predicted': 0.23655834794044495, 'actual': 0.5}
+{'titleA': 'Reason', 'titleB': 'Hypertension', 'predicted': 0.22627924382686615, 'actual': 0.231}
+{'titleA': 'Harvard University', 'titleB': 'Yale University', 'predicted': 0.5205550193786621, 'actual': 0.8130000000000001}
+{'titleA': 'Hospital', 'titleB': 'Infrastructure', 'predicted': 0.36645957827568054, 'actual': 0.46299999999999997}
+{'titleA': 'Lawyer', 'titleB': 'Evidence (law)', 'predicted': 0.31290826201438904, 'actual': 0.669}
+{'titleA': 'Life', 'titleB': 'Death', 'predicted': 0.4863099753856659, 'actual': 0.788}
+{'titleA': 'Governor', 'titleB': 'Interview', 'predicted': 0.16323374211788177, 'actual': 0.325}
+{'titleA': 'OPEC', 'titleB': 'Country', 'predicted': 0.17831751704216003, 'actual': 0.563}
+{'titleA': 'Peace', 'titleB': 'Atmosphere', 'predicted': 0.20978476107120514, 'actual': 0.369}
+{'titleA': 'Peace', 'titleB': 'Insurance', 'predicted': 0.27714803814888, 'actual': 0.294}
+{'titleA': 'Competition (economics)', 'titleB': 'Price', 'predicted': 0.40419942140579224, 'actual': 0.644}
+{'titleA': 'Consumer', 'titleB': 'Confidence', 'predicted': 0.27656516432762146, 'actual': 0.413}
+{'titleA': 'Grocery store', 'titleB': 'Money', 'predicted': 0.2651166617870331, 'actual': 0.5940000000000001}
+{'titleA': 'Month', 'titleB': 'Hotel', 'predicted': 0.19932670891284943, 'actual': 0.181}
+{'titleA': 'Impartiality', 'titleB': 'Interest (emotion)', 'predicted': 0.3291369676589966, 'actual': 0.516}
+{'titleA': 'Street', 'titleB': 'City block', 'predicted': 0.37282395362854004, 'actual': 0.688}
+{'titleA': 'Street', 'titleB': 'Child', 'predicted': 0.2681194245815277, 'actual': 0.49400000000000005}
+{'titleA': 'Listed building', 'titleB': 'Distance', 'predicted': 0.17548128962516785, 'actual': 0.256}
+{'titleA': 'Cellular network', 'titleB': 'Telephone', 'predicted': 0.453789085149765, 'actual': 0.7809999999999999}
+{'titleA': 'Mass media', 'titleB': 'Trade', 'predicted': 0.3013366758823395, 'actual': 0.388}
+{'titleA': 'Dividend', 'titleB': 'Payment', 'predicted': 0.3392554521560669, 'actual': 0.763}
+{'titleA': 'OPEC', 'titleB': 'Oil', 'predicted': 0.2692551612854004, 'actual': 0.859}
+{'titleA': 'Dollar', 'titleB': 'Japanese yen', 'predicted': 0.3820036053657532, 'actual': 0.778}
+{'titleA': 'Dollar', 'titleB': 'Dollar', 'predicted': 1.0, 'actual': 0.922}
+{'titleA': 'Dollar', 'titleB': 'Deficit', 'predicted': 0.27327483892440796, 'actual': 0.609}
+{'titleA': 'Computer network', 'titleB': 'Computer hardware', 'predicted': 0.42943304777145386, 'actual': 0.8310000000000001}
+{'titleA': 'Telephone', 'titleB': 'Tool', 'predicted': 0.2562531530857086, 'actual': 0.713}
+{'titleA': 'Tool', 'titleB': 'Manufacturing', 'predicted': 0.30141088366508484, 'actual': 0.591}
+{'titleA': 'Liquid', 'titleB': 'Water', 'predicted': 0.4815250337123871, 'actual': 0.7889999999999999}
+{'titleA': 'Baseball', 'titleB': 'Season (sports)', 'predicted': 0.2740319073200226, 'actual': 0.597}
+{'titleA': 'Seafood', 'titleB': 'Sea', 'predicted': 0.35374853014945984, 'actual': 0.747}
+{'titleA': 'Seafood', 'titleB': 'Food', 'predicted': 0.44367408752441406, 'actual': 0.834}
+{'titleA': 'Seafood', 'titleB': 'Lobster', 'predicted': 0.43272435665130615, 'actual': 0.8699999999999999}
+{'titleA': 'Lobster', 'titleB': 'Food', 'predicted': 0.4547995924949646, 'actual': 0.7809999999999999}
+{'titleA': 'Lobster', 'titleB': 'Wine', 'predicted': 0.2992570400238037, 'actual': 0.5700000000000001}
+{'titleA': 'Food', 'titleB': 'Cooking', 'predicted': 0.6080878973007202, 'actual': 0.622}
+{'titleA': 'Video', 'titleB': 'Archive', 'predicted': 0.15529030561447144, 'actual': 0.634}
+{'titleA': 'Game', 'titleB': 'Tournament', 'predicted': 0.2002309262752533, 'actual': 0.597}
+{'titleA': 'Telephone line', 'titleB': 'Insurance', 'predicted': 0.17220745980739594, 'actual': 0.269}
+{'titleA': 'Day', 'titleB': 'Summer', 'predicted': 0.4517436623573303, 'actual': 0.394}
+{'titleA': 'Summer', 'titleB': 'Drought', 'predicted': 0.38604819774627686, 'actual': 0.716}
+{'titleA': 'Summer', 'titleB': 'Nature', 'predicted': 0.43731433153152466, 'actual': 0.563}
+{'titleA': 'Day', 'titleB': 'Dawn', 'predicted': 0.37235787510871887, 'actual': 0.753}
+{'titleA': 'Nature', 'titleB': 'Natural environment', 'predicted': 0.4714678227901459, 'actual': 0.8310000000000001}
+{'titleA': 'Natural environment', 'titleB': 'Ecology', 'predicted': 0.4476834833621979, 'actual': 0.881}
+{'titleA': 'Man', 'titleB': 'Woman', 'predicted': 0.5856973528862, 'actual': 0.8300000000000001}
+{'titleA': 'Man', 'titleB': 'Governor', 'predicted': 0.19495491683483124, 'actual': 0.525}
+{'titleA': 'Soap opera', 'titleB': 'Opera', 'predicted': 0.3587198853492737, 'actual': 0.794}
+{'titleA': 'Opera', 'titleB': 'Performance', 'predicted': 0.40640881657600403, 'actual': 0.688}
+{'titleA': 'Manufacturing', 'titleB': 'Crew', 'predicted': 0.20223386585712433, 'actual': 0.625}
+{'titleA': 'Television', 'titleB': 'Film', 'predicted': 0.5024200081825256, 'actual': 0.772}
+{'titleA': 'Morality', 'titleB': 'Marriage', 'predicted': 0.37784039974212646, 'actual': 0.369}
+{'titleA': 'Mexico', 'titleB': 'Brazil', 'predicted': 0.5181799530982971, 'actual': 0.744}
+{'titleA': 'Social change', 'titleB': 'Attitude (psychology)', 'predicted': 0.4143624007701874, 'actual': 0.544}
+{'titleA': 'Family', 'titleB': 'Planning', 'predicted': 0.21533794701099396, 'actual': 0.625}
+{'titleA': 'Country', 'titleB': 'Citizenship', 'predicted': 0.3437533378601074, 'actual': 0.731}
+{'titleA': 'Planet', 'titleB': 'People', 'predicted': 0.225277841091156, 'actual': 0.575}
+{'titleA': 'Experience', 'titleB': 'Music', 'predicted': 0.4723633825778961, 'actual': 0.34700000000000003}
+{'titleA': 'Music', 'titleB': 'Project', 'predicted': 0.36017903685569763, 'actual': 0.363}
+{'titleA': 'Glass', 'titleB': 'Metal', 'predicted': 0.48115819692611694, 'actual': 0.5559999999999999}
+{'titleA': 'Aluminium', 'titleB': 'Metal', 'predicted': 0.6629726886749268, 'actual': 0.783}
+{'titleA': 'Concert', 'titleB': 'Virtuoso', 'predicted': 0.41170763969421387, 'actual': 0.6809999999999999}
+{'titleA': 'Rock music', 'titleB': 'Jazz', 'predicted': 0.5241153240203857, 'actual': 0.759}
+{'titleA': 'Museum', 'titleB': 'Theater (structure)', 'predicted': 0.3817884922027588, 'actual': 0.7190000000000001}
+{'titleA': 'Observation', 'titleB': 'Architecture', 'predicted': 0.3036978542804718, 'actual': 0.438}
+{'titleA': 'Space', 'titleB': 'World', 'predicted': 0.31303438544273376, 'actual': 0.653}
+{'titleA': 'Rain', 'titleB': 'Thunderstorm', 'predicted': 0.46327951550483704, 'actual': 0.631}
+{'titleA': 'Rain', 'titleB': 'Flood', 'predicted': 0.4427083134651184, 'actual': 0.603}
+{'titleA': 'Weather', 'titleB': 'Weather forecasting', 'predicted': 0.45052769780158997, 'actual': 0.834}
+{'titleA': 'Disaster', 'titleB': 'Area', 'predicted': 0.14015959203243256, 'actual': 0.625}
+{'titleA': 'Governor', 'titleB': 'Office', 'predicted': 0.2047038972377777, 'actual': 0.634}
+{'titleA': 'Architecture', 'titleB': 'Century', 'predicted': 0.25775864720344543, 'actual': 0.378}
+pt :
+{'titleA': 'Love', 'titleB': 'Sexual intercourse', 'predicted': 0.3005538284778595, 'actual': 0.6769999999999999}
+{'titleA': 'Tiger', 'titleB': 'Cat', 'predicted': 0.3287256956100464, 'actual': 0.735}
+{'titleA': 'Tiger', 'titleB': 'Tiger', 'predicted': 1.0, 'actual': 1.0}
+{'titleA': 'Book', 'titleB': 'Paper', 'predicted': 0.40805909037590027, 'actual': 0.746}
+{'titleA': 'Computer', 'titleB': 'Internet', 'predicted': 0.31914401054382324, 'actual': 0.758}
+{'titleA': 'Drug', 'titleB': 'Abuse', 'predicted': 0.3277249336242676, 'actual': 0.6849999999999999}
+{'titleA': 'Bread', 'titleB': 'Butter', 'predicted': 0.2606596350669861, 'actual': 0.619}
+{'titleA': 'Cucumber', 'titleB': 'Potato', 'predicted': 0.35421091318130493, 'actual': 0.592}
+{'titleA': 'Intelligence', 'titleB': 'Stupidity', 'predicted': 0.33092305064201355, 'actual': 0.581}
+{'titleA': 'Book', 'titleB': 'Library', 'predicted': 0.4196205139160156, 'actual': 0.746}
+{'titleA': 'Bank', 'titleB': 'Money', 'predicted': 0.3003506660461426, 'actual': 0.8119999999999999}
+{'titleA': 'Wood', 'titleB': 'Forest', 'predicted': 0.33720916509628296, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Cash', 'predicted': 0.2732217609882355, 'actual': 0.915}
+{'titleA': 'King', 'titleB': 'Cabbage', 'predicted': 0.22165030241012573, 'actual': 0.023}
+{'titleA': 'King (chess)', 'titleB': 'Rook (chess)', 'predicted': 0.6538543701171875, 'actual': 0.592}
+{'titleA': 'Bishop', 'titleB': 'Rabbi', 'predicted': 0.29979053139686584, 'actual': 0.669}
+{'titleA': 'Jerusalem', 'titleB': 'Israel', 'predicted': 0.4226885735988617, 'actual': 0.8460000000000001}
+{'titleA': 'Fuck', 'titleB': 'Sexual intercourse', 'predicted': 0.1809287667274475, 'actual': 0.944}
+{'titleA': 'Diego Maradona', 'titleB': 'Association football', 'predicted': 0.20836332440376282, 'actual': 0.8619999999999999}
+{'titleA': 'Association football', 'titleB': 'Association football', 'predicted': 1.0, 'actual': 0.9029999999999999}
+{'titleA': 'American football', 'titleB': 'Basketball', 'predicted': 0.4902358055114746, 'actual': 0.6809999999999999}
+{'titleA': 'Association football', 'titleB': 'Tennis', 'predicted': 0.395094633102417, 'actual': 0.663}
+{'titleA': 'Yasser Arafat', 'titleB': 'Peace', 'predicted': 0.08364592492580414, 'actual': 0.673}
+{'titleA': 'Yasser Arafat', 'titleB': 'Terrorism', 'predicted': 0.14267924427986145, 'actual': 0.765}
+{'titleA': 'Yasser Arafat', 'titleB': 'Michael Jackson', 'predicted': 0.11323098093271255, 'actual': 0.25}
+{'titleA': 'Law', 'titleB': 'Lawyer', 'predicted': 0.29953640699386597, 'actual': 0.8380000000000001}
+{'titleA': 'Film', 'titleB': 'Celebrity', 'predicted': 0.18674643337726593, 'actual': 0.738}
+{'titleA': 'Film', 'titleB': 'Popcorn', 'predicted': 0.18112458288669586, 'actual': 0.619}
+{'titleA': 'Film', 'titleB': 'Film criticism', 'predicted': 0.3296010494232178, 'actual': 0.673}
+{'titleA': 'Physics', 'titleB': 'Proton', 'predicted': 0.3523501455783844, 'actual': 0.8119999999999999}
+{'titleA': 'Physics', 'titleB': 'Chemistry', 'predicted': 0.4128483533859253, 'actual': 0.735}
+{'titleA': 'Vodka', 'titleB': 'Gin', 'predicted': 0.43624481558799744, 'actual': 0.8460000000000001}
+{'titleA': 'Vodka', 'titleB': 'Brandy', 'predicted': 0.4177030026912689, 'actual': 0.8130000000000001}
+{'titleA': 'Drink', 'titleB': 'Ear', 'predicted': 0.20166060328483582, 'actual': 0.131}
+{'titleA': 'Drink', 'titleB': 'Mouth', 'predicted': 0.261498361825943, 'actual': 0.596}
+{'titleA': 'Drinking', 'titleB': 'Eating', 'predicted': 0.27076661586761475, 'actual': 0.687}
+{'titleA': 'Drink', 'titleB': 'Mother', 'predicted': 0.20693713426589966, 'actual': 0.265}
+{'titleA': 'Gemstone', 'titleB': 'Gemstone', 'predicted': 1.0, 'actual': 0.8960000000000001}
+{'titleA': 'Magician (fantasy)', 'titleB': 'Magician (fantasy)', 'predicted': 1.0, 'actual': 0.9019999999999999}
+{'titleA': 'Food', 'titleB': 'Fruit', 'predicted': 0.3084828853607178, 'actual': 0.752}
+{'titleA': 'Bird', 'titleB': 'Crane (bird)', 'predicted': 0.36381062865257263, 'actual': 0.738}
+{'titleA': 'Tool', 'titleB': 'Tool', 'predicted': 1.0, 'actual': 0.646}
+{'titleA': 'Monk', 'titleB': 'Monk', 'predicted': 1.0, 'actual': 0.627}
+{'titleA': 'Crane (machine)', 'titleB': 'Tool', 'predicted': 0.27033376693725586, 'actual': 0.269}
+{'titleA': 'Monk', 'titleB': 'Oracle', 'predicted': 0.23455163836479187, 'actual': 0.5}
+{'titleA': 'Monk', 'titleB': 'Slavery', 'predicted': 0.2470201849937439, 'actual': 0.092}
+{'titleA': 'Coast', 'titleB': 'Forest', 'predicted': 0.2962389886379242, 'actual': 0.315}
+{'titleA': 'Chord (geometry)', 'titleB': 'Smile', 'predicted': 0.11643583327531815, 'actual': 0.054000000000000006}
+{'titleA': 'Glass', 'titleB': 'Magic (illusion)', 'predicted': 0.18331733345985413, 'actual': 0.20800000000000002}
+{'titleA': 'Money', 'titleB': 'Dollar', 'predicted': 0.20786643028259277, 'actual': 0.842}
+{'titleA': 'Money', 'titleB': 'Cash', 'predicted': 0.2732217609882355, 'actual': 0.908}
+{'titleA': 'Money', 'titleB': 'Currency', 'predicted': 0.4236459732055664, 'actual': 0.9039999999999999}
+{'titleA': 'Money', 'titleB': 'Property', 'predicted': 0.2559379041194916, 'actual': 0.757}
+{'titleA': 'Money', 'titleB': 'Possession (law)', 'predicted': 0.3020973205566406, 'actual': 0.729}
+{'titleA': 'Money', 'titleB': 'Bank', 'predicted': 0.3003506660461426, 'actual': 0.85}
+{'titleA': 'Money', 'titleB': 'Deposit account', 'predicted': 0.20112082362174988, 'actual': 0.773}
+{'titleA': 'Money', 'titleB': 'Money laundering', 'predicted': 0.2566147744655609, 'actual': 0.5650000000000001}
+{'titleA': 'Money', 'titleB': 'Surgery', 'predicted': 0.13736385107040405, 'actual': 0.331}
+{'titleA': 'Tiger', 'titleB': 'Jaguar', 'predicted': 0.47872433066368103, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Felidae', 'predicted': 0.3885928690433502, 'actual': 0.8}
+{'titleA': 'Tiger', 'titleB': 'Carnivore', 'predicted': 0.2506565749645233, 'actual': 0.708}
+{'titleA': 'Tiger', 'titleB': 'Mammal', 'predicted': 0.34476718306541443, 'actual': 0.6849999999999999}
+{'titleA': 'Tiger', 'titleB': 'Animal', 'predicted': 0.27762964367866516, 'actual': 0.7}
+{'titleA': 'Tiger', 'titleB': 'Organism', 'predicted': 0.22420378029346466, 'actual': 0.477}
+{'titleA': 'Tiger', 'titleB': 'Zoo', 'predicted': 0.21093429625034332, 'actual': 0.587}
+{'titleA': 'Psychology', 'titleB': 'Psychiatry', 'predicted': 0.39007768034935, 'actual': 0.808}
+{'titleA': 'Psychology', 'titleB': 'Anxiety', 'predicted': 0.2726491391658783, 'actual': 0.7}
+{'titleA': 'Psychology', 'titleB': 'Fear', 'predicted': 0.22225725650787354, 'actual': 0.6849999999999999}
+{'titleA': 'Psychology', 'titleB': 'Major depressive disorder', 'predicted': 0.2958182394504547, 'actual': 0.742}
+{'titleA': 'Psychology', 'titleB': 'Clinic', 'predicted': 0.1505918949842453, 'actual': 0.658}
+{'titleA': 'Psychology', 'titleB': 'Physician', 'predicted': 0.24088338017463684, 'actual': 0.642}
+{'titleA': 'Psychology', 'titleB': 'Sigmund Freud', 'predicted': 0.41863369941711426, 'actual': 0.8210000000000001}
+{'titleA': 'Psychology', 'titleB': 'Mind', 'predicted': 0.4562548100948334, 'actual': 0.769}
+{'titleA': 'Psychology', 'titleB': 'Health', 'predicted': 0.34181374311447144, 'actual': 0.7230000000000001}
+{'titleA': 'Psychology', 'titleB': 'Science', 'predicted': 0.36688727140426636, 'actual': 0.671}
+{'titleA': 'Psychology', 'titleB': 'Cognition', 'predicted': 0.35791754722595215, 'actual': 0.748}
+{'titleA': 'Planet', 'titleB': 'Star', 'predicted': 0.46278348565101624, 'actual': 0.845}
+{'titleA': 'Planet', 'titleB': 'Constellation', 'predicted': 0.4691130816936493, 'actual': 0.806}
+{'titleA': 'Planet', 'titleB': 'Natural satellite', 'predicted': 0.3645644187927246, 'actual': 0.808}
+{'titleA': 'Planet', 'titleB': 'Sun', 'predicted': 0.45322880148887634, 'actual': 0.8019999999999999}
+{'titleA': 'Planet', 'titleB': 'Galaxy', 'predicted': 0.4051854908466339, 'actual': 0.8109999999999999}
+{'titleA': 'Planet', 'titleB': 'Outer space', 'predicted': 0.35263609886169434, 'actual': 0.792}
+{'titleA': 'Planet', 'titleB': 'Astronomer', 'predicted': 0.2552533745765686, 'actual': 0.794}
+{'titleA': 'Precedent', 'titleB': 'Information', 'predicted': 0.21867172420024872, 'actual': 0.385}
+{'titleA': 'Precedent', 'titleB': 'Cognition', 'predicted': 0.1759440302848816, 'actual': 0.281}
+{'titleA': 'Precedent', 'titleB': 'Law', 'predicted': 0.35288241505622864, 'actual': 0.665}
+{'titleA': 'Precedent', 'titleB': 'Collecting', 'predicted': 0.044711966067552567, 'actual': 0.25}
+{'titleA': 'Jaguar', 'titleB': 'Cat', 'predicted': 0.30282944440841675, 'actual': 0.742}
+{'titleA': 'Energy', 'titleB': 'Secretary', 'predicted': 0.0754731222987175, 'actual': 0.181}
+{'titleA': 'Minister (government)', 'titleB': 'Senate', 'predicted': 0.31193262338638306, 'actual': 0.506}
+{'titleA': 'Energy', 'titleB': 'Laboratory', 'predicted': 0.2716853618621826, 'actual': 0.509}
+{'titleA': 'Computer', 'titleB': 'Laboratory', 'predicted': 0.17115528881549835, 'actual': 0.678}
+{'titleA': 'Federal Bureau of Investigation', 'titleB': 'Fingerprint', 'predicted': 0.0882394015789032, 'actual': 0.6940000000000001}
+{'titleA': 'Mars', 'titleB': 'Water', 'predicted': 0.30597028136253357, 'actual': 0.294}
+{'titleA': 'Mars', 'titleB': 'Scientist', 'predicted': 0.16412605345249176, 'actual': 0.563}
+{'titleA': 'News', 'titleB': 'Report', 'predicted': 0.26462939381599426, 'actual': 0.8160000000000001}
+{'titleA': 'Canyon', 'titleB': 'Landscape', 'predicted': 0.25824373960494995, 'actual': 0.753}
+{'titleA': 'Water', 'titleB': 'Soil mechanics', 'predicted': 0.30982154607772827, 'actual': 0.6559999999999999}
+{'titleA': 'Wednesday', 'titleB': 'News', 'predicted': -0.01838281936943531, 'actual': 0.22200000000000003}
+{'titleA': 'Mile', 'titleB': 'Kilometre', 'predicted': 0.41454654932022095, 'actual': 0.866}
+{'titleA': 'Computer', 'titleB': 'News', 'predicted': 0.13372404873371124, 'actual': 0.44699999999999995}
+{'titleA': 'Atmosphere', 'titleB': 'Landscape', 'predicted': 0.2680804431438446, 'actual': 0.369}
+{'titleA': 'War', 'titleB': 'Soldier', 'predicted': 0.2936006486415863, 'actual': 0.8130000000000001}
+{'titleA': 'Skin', 'titleB': 'Eye', 'predicted': 0.4496285617351532, 'actual': 0.622}
+{'titleA': 'Japanese people', 'titleB': 'United States', 'predicted': 0.2832835018634796, 'actual': 0.65}
+{'titleA': 'Theatre', 'titleB': 'History', 'predicted': 0.31011950969696045, 'actual': 0.391}
+{'titleA': 'Century', 'titleB': 'Year', 'predicted': 0.3473956286907196, 'actual': 0.759}
+{'titleA': 'Century', 'titleB': 'Nation', 'predicted': 0.257124662399292, 'actual': 0.316}
+{'titleA': 'Minister (government)', 'titleB': 'Political party', 'predicted': 0.3450700044631958, 'actual': 0.663}
+{'titleA': 'Minority group', 'titleB': 'Peace', 'predicted': 0.2542884647846222, 'actual': 0.369}
+{'titleA': 'Government', 'titleB': 'Crisis', 'predicted': 0.15662886202335358, 'actual': 0.6559999999999999}
+{'titleA': 'Energy industry', 'titleB': 'Crisis', 'predicted': 0.21485202014446259, 'actual': 0.5940000000000001}
+{'titleA': 'Stroke', 'titleB': 'Hospital', 'predicted': 0.2129569798707962, 'actual': 0.7030000000000001}
+{'titleA': 'Disability', 'titleB': 'Death', 'predicted': 0.20656433701515198, 'actual': 0.5469999999999999}
+{'titleA': 'Reason', 'titleB': 'Hypertension', 'predicted': 0.14047081768512726, 'actual': 0.231}
+{'titleA': 'Harvard University', 'titleB': 'Yale University', 'predicted': 0.3978751003742218, 'actual': 0.8130000000000001}
+{'titleA': 'Hospital', 'titleB': 'Infrastructure', 'predicted': 0.1884642243385315, 'actual': 0.46299999999999997}
+{'titleA': 'Lawyer', 'titleB': 'Evidence (law)', 'predicted': 0.3748643696308136, 'actual': 0.669}
+{'titleA': 'Life', 'titleB': 'Death', 'predicted': 0.39788201451301575, 'actual': 0.788}
+{'titleA': 'Governor', 'titleB': 'Interview', 'predicted': 0.03693012893199921, 'actual': 0.325}
+{'titleA': 'OPEC', 'titleB': 'Country', 'predicted': -0.015676723793148994, 'actual': 0.563}
+{'titleA': 'Peace', 'titleB': 'Atmosphere', 'predicted': 0.10923843085765839, 'actual': 0.369}
+{'titleA': 'Peace', 'titleB': 'Insurance', 'predicted': 0.15011964738368988, 'actual': 0.294}
+{'titleA': 'Territory', 'titleB': 'Kilometre', 'predicted': 0.206849604845047, 'actual': 0.528}
+{'titleA': 'Competition (economics)', 'titleB': 'Price', 'predicted': 0.4053099751472473, 'actual': 0.644}
+{'titleA': 'Grocery store', 'titleB': 'Money', 'predicted': 0.149945467710495, 'actual': 0.5940000000000001}
+{'titleA': 'Month', 'titleB': 'Hotel', 'predicted': 0.12097383290529251, 'actual': 0.181}
+{'titleA': 'Street', 'titleB': 'Avenue (landscape)', 'predicted': 0.4266413152217865, 'actual': 0.8880000000000001}
+{'titleA': 'Street', 'titleB': 'Child', 'predicted': 0.157229945063591, 'actual': 0.49400000000000005}
+{'titleA': 'Listed building', 'titleB': 'Distance', 'predicted': 0.1952972561120987, 'actual': 0.256}
+{'titleA': 'Cellular network', 'titleB': 'Telephone', 'predicted': 0.38513681292533875, 'actual': 0.7809999999999999}
+{'titleA': 'Mass media', 'titleB': 'Trade', 'predicted': 0.11179929971694946, 'actual': 0.388}
+{'titleA': 'OPEC', 'titleB': 'Oil', 'predicted': 0.03274461627006531, 'actual': 0.859}
+{'titleA': 'Dollar', 'titleB': 'Japanese yen', 'predicted': 0.40285590291023254, 'actual': 0.778}
+{'titleA': 'Dollar', 'titleB': 'Dollar', 'predicted': 1.0, 'actual': 0.922}
+{'titleA': 'Computer network', 'titleB': 'Computer hardware', 'predicted': 0.43530529737472534, 'actual': 0.8310000000000001}
+{'titleA': 'Telephone', 'titleB': 'Tool', 'predicted': 0.18743345141410828, 'actual': 0.713}
+{'titleA': 'Tool', 'titleB': 'Manufacturing', 'predicted': 0.2695311903953552, 'actual': 0.591}
+{'titleA': 'Liquid', 'titleB': 'Water', 'predicted': 0.2865194082260132, 'actual': 0.7889999999999999}
+{'titleA': 'Baseball', 'titleB': 'Season (sports)', 'predicted': 0.34380754828453064, 'actual': 0.597}
+{'titleA': 'Game', 'titleB': 'Team', 'predicted': 0.16213959455490112, 'actual': 0.769}
+{'titleA': 'Food', 'titleB': 'Cooking', 'predicted': 0.39051759243011475, 'actual': 0.622}
+{'titleA': 'Video', 'titleB': 'Archive', 'predicted': 0.10106314718723297, 'actual': 0.634}
+{'titleA': 'Day', 'titleB': 'Summer', 'predicted': 0.3485255539417267, 'actual': 0.394}
+{'titleA': 'Summer', 'titleB': 'Drought', 'predicted': 0.20260749757289886, 'actual': 0.716}
+{'titleA': 'Summer', 'titleB': 'Nature', 'predicted': 0.24564042687416077, 'actual': 0.563}
+{'titleA': 'Nature', 'titleB': 'Natural environment', 'predicted': 0.4984862804412842, 'actual': 0.8310000000000001}
+{'titleA': 'Natural environment', 'titleB': 'Ecology', 'predicted': 0.4377017319202423, 'actual': 0.881}
+{'titleA': 'Man', 'titleB': 'Woman', 'predicted': 0.39181649684906006, 'actual': 0.8300000000000001}
+{'titleA': 'Man', 'titleB': 'Governor', 'predicted': 0.16495449841022491, 'actual': 0.525}
+{'titleA': 'Murder', 'titleB': 'Manslaughter', 'predicted': 0.24445976316928864, 'actual': 0.853}
+{'titleA': 'Soap opera', 'titleB': 'Opera', 'predicted': 0.2260895073413849, 'actual': 0.794}
+{'titleA': 'Television', 'titleB': 'Film', 'predicted': 0.18057852983474731, 'actual': 0.772}
+{'titleA': 'Morality', 'titleB': 'Marriage', 'predicted': 0.31972211599349976, 'actual': 0.369}
+{'titleA': 'Mexico', 'titleB': 'Brazil', 'predicted': 0.47167786955833435, 'actual': 0.744}
+{'titleA': 'Social change', 'titleB': 'Attitude (psychology)', 'predicted': 0.17755572497844696, 'actual': 0.544}
+{'titleA': 'Family', 'titleB': 'Planning', 'predicted': 0.15553419291973114, 'actual': 0.625}
+{'titleA': 'Minister (Christianity)', 'titleB': 'Culture', 'predicted': 0.07084992527961731, 'actual': 0.46900000000000003}
+{'titleA': 'Size', 'titleB': 'Topographic prominence', 'predicted': 0.216995507478714, 'actual': 0.5309999999999999}
+{'titleA': 'Country', 'titleB': 'Citizenship', 'predicted': 0.20755648612976074, 'actual': 0.731}
+{'titleA': 'Experience', 'titleB': 'Music', 'predicted': 0.2808767855167389, 'actual': 0.34700000000000003}
+{'titleA': 'Music', 'titleB': 'Project', 'predicted': 0.24739882349967957, 'actual': 0.363}
+{'titleA': 'Glass', 'titleB': 'Metal', 'predicted': 0.3389109671115875, 'actual': 0.5559999999999999}
+{'titleA': 'Aluminium', 'titleB': 'Metal', 'predicted': 0.3962952494621277, 'actual': 0.783}
+{'titleA': 'Rock music', 'titleB': 'Jazz', 'predicted': 0.45969632267951965, 'actual': 0.759}
+{'titleA': 'Observation', 'titleB': 'Architecture', 'predicted': 0.14821547269821167, 'actual': 0.438}
+{'titleA': 'Rain', 'titleB': 'Thunderstorm', 'predicted': 0.37281402945518494, 'actual': 0.631}
+{'titleA': 'Rain', 'titleB': 'Flood', 'predicted': 0.3487842381000519, 'actual': 0.603}
+{'titleA': 'Weather', 'titleB': 'Weather forecasting', 'predicted': 0.33766812086105347, 'actual': 0.834}
+{'titleA': 'Disaster', 'titleB': 'Area', 'predicted': 0.10259213298559189, 'actual': 0.625}
+{'titleA': 'Architecture', 'titleB': 'Century', 'predicted': 0.22540228068828583, 'actual': 0.378}

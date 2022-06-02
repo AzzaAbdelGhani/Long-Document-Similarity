@@ -1,0 +1,6 @@
+english : 39.9%
+arabic : 59.4%
+spanish : 29.5%
+french : 71.9%
+russian : 34.8%
+portuguese : 40.1%

@@ -32,7 +32,7 @@ class SBERT_WikiSimilarity() :
             self.model.max_seq_length = self.model.get_max_seq_length() # For this pre-trained model, max_seq_length is 128
             self.pages_embeddings = self.compute_pages_embeddings()
             if save==True:
-              with open('data/embeddings/'+dataset_name+'_embeddings.pkl', "wb") as fOut:
+              with open('WikiSRS/data/embeddings/'+dataset_name+'_embeddings.pkl', "wb") as fOut:
                 pickle.dump(self.pages_embeddings, fOut, protocol=pickle.HIGHEST_PROTOCOL)
         else:
             if self.device == "cpu":
@@ -45,18 +45,18 @@ class SBERT_WikiSimilarity() :
         self.ranking_accuracy, self.r_s = self.evaluate_ranking() 
 
     def load_dataset(self, dataset_name):
-        multilingual_data = pd.read_csv("data/multilingual_"+dataset_name+".csv") 
+        multilingual_data = pd.read_csv("WikiSRS/data/multilingual_"+dataset_name+".csv") 
         if dataset_name == "wikipediaSimilarity353":
-            data = pd.read_csv("data/wikipediaSimilarity353.csv")
+            data = pd.read_csv("WikiSRS/data/wikipediaSimilarity353.csv")
             data['titleA'] = data['titleA'].replace(['Production, costs, and pricing'],'Production')#no wikipedia page for 'Production, costs, and pricing'
         elif dataset_name == "WikiSRS_relatedness" or dataset_name == "WikiSRS_similarity":
-            data = pd.read_csv("data/"+dataset_name+".csv", sep='\t') 
+            data = pd.read_csv("WikiSRS/data/"+dataset_name+".csv", sep='\t') 
             data = data.drop(['RawScores', 'StdDev'], axis = 1)
             data.rename(columns = {'Term1':'termA', 'String1':'titleA',
                                    'Term2':'termB', 'String2':'titleB',
                                    'Mean' :'relatedness'}, inplace = True)
             data['relatedness'] = data['relatedness'].div(10)
-        return multilingual_data[:50], data[:50]
+        return multilingual_data, data
     
     def split_sentence(self,sentence):
         if len(sentence.split()) > 120:
@@ -79,7 +79,7 @@ class SBERT_WikiSimilarity() :
         return embeddings
 
     def save_similarity_scores(self, results):
-        with open("results/"+self.dataset_name+"/sbert_similarity_scores.txt", "w") as f:
+        with open("WikiSRS/results/"+self.dataset_name+"/sbert_similarity_scores.txt", "w") as f:
             for key, value in results.items():
                 #f.write('%s: %s\n' % (key,value))
                 f.write('%s :\n' % key)
@@ -108,7 +108,7 @@ class SBERT_WikiSimilarity() :
         return results
 
     def save_metrics_results(self, Average_of_true_ranks, r_s):
-        with open("results/"+self.dataset_name+"/sbert_metrics_results", "w") as f :
+        with open("WikiSRS/results/"+self.dataset_name+"/sbert_metrics_results", "w") as f :
             f.write("Average of True Rankings for each language : \n")
             for k, v in Average_of_true_ranks.items():
                 f.write('%s: %s\n' % (k, v))
